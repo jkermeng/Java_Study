@@ -1,0 +1,34 @@
+package SDXLMySql.MySql;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+/**
+*
+*
+*@Author JKermeng
+*@Date 2019Äê10ÔÂ11ÈÕ
+*@Version 1.0.0
+*/
+public class MySqlTest {
+static String sql = null;
+static MySqlConnet msc = null;
+static ResultSet rs = null;
+	public static void main(String[] args) {
+		sql = "select * from customer";
+		//msc = new MySqlConnet(sql);
+		try {
+			rs = msc.pst.executeQuery();
+			while (rs.next()) {
+				String name = rs.getString(1);
+				System.out.println(name);
+			}
+			rs.close();
+			//msc.close();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+}

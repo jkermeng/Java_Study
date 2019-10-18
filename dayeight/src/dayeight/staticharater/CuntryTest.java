@@ -1,0 +1,26 @@
+package dayeight.staticharater;
+
+/**
+ *
+ *
+ * @Author JKermeng
+ * @Date 2019年10月14日
+ * @Version 1.0.0
+ */
+public class CuntryTest {
+
+	public static void main(String[] args) {
+		Cuntry cuntry = new Cuntry();
+		Cuntry cuntry2 = new Cuntry();
+		cuntry.age = 11;
+		cuntry2.age = 155;
+
+		System.out.println(cuntry.toString());
+		System.out.println(cuntry2.toString());
+System.out.println("country是类里的变量，修改country后全局模版发生改变");
+		Cuntry.country = "么个";
+		System.out.println(cuntry.toString());
+		System.out.println(cuntry2.toString());
+	}
+
+}

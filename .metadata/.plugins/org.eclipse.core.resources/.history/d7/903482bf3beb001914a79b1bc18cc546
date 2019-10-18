@@ -1,0 +1,24 @@
+package dayfive.arr;
+/**
+*
+*
+*@Author JKermeng
+*@Date 2019年10月10日
+*@Version 1.0.0
+*/
+public class school_work {
+
+	public static void main(String[] args) {
+
+	
+			byte x,y,z;
+			x = 014;
+			y = 18;
+			z = 0x18;
+			System.out.println("x转换成十进制数："+x);
+			System.out.println("y转换成十进制数："+y);
+			System.out.println("z转换成十进制数："+z);
+			
+	}
+
+}

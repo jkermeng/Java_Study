@@ -1,0 +1,37 @@
+package dayaseven.cat;
+/**
+*
+*
+*@Author JKermeng
+*@Date 2019Äê10ÔÂ12ÈÕ
+*@Version 1.0.0
+*/
+public class Cat {
+
+	
+	private String name,sex;
+	private int age;
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getSex() {
+		return sex;
+	}
+	public void setSex(String sex) {
+		this.sex = sex;
+	}
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+	@Override
+	public String toString() {
+		return "Cat [name=" + name + ", sex=" + sex + ", age=" + age + "]";
+	}
+	
+}

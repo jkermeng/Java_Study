@@ -1,0 +1,22 @@
+package dayaseven.quiz;
+
+public class JianShiBu {
+
+	public Role compare(Role r, Role r2) {
+		Role result = null;
+		int hand = r.getHand();
+		int hand2 = r2.getHand();
+
+		if (hand != 0 && hand2 != 0) {
+			 if(hand ==1 & hand2 ==2||hand ==2 & hand2 ==3||hand ==3 && hand2 ==1){
+				result = r;
+				
+			}else if(hand ==1 & hand2 ==3||hand ==2 & hand2 ==1||hand ==3 & hand2 ==2){
+				result = r2;
+			}
+		
+
+		
+		}
+		return result;
+}

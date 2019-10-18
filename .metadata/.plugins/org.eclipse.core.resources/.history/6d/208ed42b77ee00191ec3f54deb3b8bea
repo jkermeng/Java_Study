@@ -1,0 +1,19 @@
+package dayseven.quiz;
+/**
+*
+*
+*@Author JKermeng
+*@Date 2019Äê10ÔÂ14ÈÕ
+*@Version 1.0.0
+*/
+public class test {
+
+	public static void main(String[] args) {
+		int num[] = {1,3,4,5,6,72,2,11,10};
+		String a = "abcd";
+		ArrarySry arrarySry = new ArrarySry(num);
+		arrarySry.sorts();
+		System.out.println(a.substring(0,a.length()-1));
+	}
+
+}

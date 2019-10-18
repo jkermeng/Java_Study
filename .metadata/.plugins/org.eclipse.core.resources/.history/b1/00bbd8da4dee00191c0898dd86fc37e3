@@ -1,0 +1,25 @@
+package dayeight.staticharater;
+
+/**
+ *
+ *
+ * @Author JKermeng
+ * @Date 2019年10月14日
+ * @Version 1.0.0
+ */
+public class CuntryTest {
+
+	public static void main(String[] args) {
+		Cuntry cuntry = new Cuntry();
+		Cuntry cuntry2 = new Cuntry();
+		cuntry.age = 11;
+		cuntry2.age = 11;
+
+		System.out.println(cuntry.toString());
+		
+		Cuntry.country = "么个";
+		System.out.println(cuntry.toString());
+
+	}
+
+}

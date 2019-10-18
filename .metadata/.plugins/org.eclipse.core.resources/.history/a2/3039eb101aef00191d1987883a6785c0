@@ -1,0 +1,16 @@
+package potion;
+/**
+*
+*
+*@Author JKermeng
+*@Date 2019Äê10ÔÂ15ÈÕ
+*@Version 1.0.0
+*/
+public class Potion {
+	
+public static void main(String[] args) {
+	
+	
+	int a[] = new int [10];
+}
+}

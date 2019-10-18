@@ -1,0 +1,22 @@
+package dayseven.sjb;
+/**
+*
+*
+*@Author JKermeng
+*@Date 2019年10月12日
+*@Version 1.0.0
+*/
+public class qweqweasd {
+
+	public static void main(String[] args) {
+
+		  int a =1, b=2;
+		  swp(a,b);
+		 //引用数据类型
+		  int[]arr=(1,2,3,4,5,6);
+		  swap(arr,0,1);
+		  System.out.println(arr[0]+" "+arr[1]);
+		System.out.println("a="+a+" "+"b="+b);
+		}
+
+}

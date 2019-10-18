@@ -1,0 +1,17 @@
+package test;
+/**
+*
+*
+*@Author JKermeng
+*@Date 2019年10月12日
+*@Version 1.0.0
+*/
+public class Test2 {
+
+	public Test1 Test2(Test1 t){
+		//在这里改变Test1的属性
+		t.age = 10;
+		t.name = "cc";
+		t.sex = "1";
+	}
+}

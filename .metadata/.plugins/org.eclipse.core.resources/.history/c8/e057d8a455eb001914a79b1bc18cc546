@@ -1,0 +1,58 @@
+package dayfive.arr;
+
+/**
+ *
+ *
+ * @Author JKermeng
+ * @Date 2019Äê10ÔÂ10ÈÕ
+ * @Version 1.0.0
+ */
+public class school_work {
+	public void third_one() {
+		System.out.println("*");
+		for (int i = 1; i < 5; i++) {
+			for (int j = 0; j < i * 2; j++) {
+				System.out.print("*");
+			}
+			System.out.println("*");
+		}
+	}
+	public void third_two() {
+	
+	}
+	public void third_three() {
+		int i = 0;
+		while(i<100)
+		{
+			i++;
+		}
+	}
+	public void third_four() {}
+	public void third_five() {}
+	public void third_six() {}
+	public void third_seven() {}
+	public void third_eight() {}
+	public static void main(String[] args) {
+		int arr[] = new int[20];
+		int n = 1;
+		int b = 0;
+		int sum =0;
+		while(n<=1){
+			sum = sum+n;
+			for(int i =1;i<=n;++i)
+			{
+				b = i*n;
+				System.out.print(" ::::"+b);
+				
+			
+			}
+			
+//			System.out.print(" "+b);
+			n++;
+
+		}
+		System.out.println(" 1+2!+3!...+20! == "+sum);
+		
+	}
+
+}

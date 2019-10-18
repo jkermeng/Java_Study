@@ -1,0 +1,12 @@
+package dayaseven.quiz;
+/**
+*
+*
+*@Author JKermeng
+*@Date 2019Äê10ÔÂ16ÈÕ
+*@Version 1.0.0
+*/
+public class GameResult {
+private int value;
+private String key;
+}

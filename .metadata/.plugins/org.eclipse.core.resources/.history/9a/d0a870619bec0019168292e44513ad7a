@@ -1,0 +1,21 @@
+package test;
+
+import javax.rmi.CORBA.Tie;
+
+/**
+*
+*
+*@Author JKermeng
+*@Date 2019Äê10ÔÂ12ÈÕ
+*@Version 1.0.0
+*/
+public class Test1 {
+	private String name;
+	private int age ;
+	private String sex;
+	@Override
+	public String toString() {
+		
+		return this.age+this.name+this.sex;
+	}
+}

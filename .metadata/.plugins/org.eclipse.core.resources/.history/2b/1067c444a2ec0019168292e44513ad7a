@@ -1,0 +1,20 @@
+package dayseven.sjb;
+
+import java.util.Random;
+
+/**
+*
+*
+*@Author JKermeng
+*@Date 2019Äê10ÔÂ12ÈÕ
+*@Version 1.0.0
+*/
+public class robot {
+	Random random;
+	public int hand() {
+		random = new Random();
+		random.nextInt();
+		for(int  i = 0; i<10;i++){}
+		return a;
+	}
+}

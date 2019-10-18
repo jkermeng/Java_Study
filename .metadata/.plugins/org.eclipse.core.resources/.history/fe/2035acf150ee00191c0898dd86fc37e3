@@ -1,0 +1,44 @@
+package SDXLMySql.MySql;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import com.mysql.jdbc.Connection;
+import com.mysql.jdbc.Statement;
+
+/**
+ *
+ *
+ * @Author JKermeng
+ * @Date 2019年10月14日
+ * @Version 1.0.0
+ */
+public class MySql {
+	
+	public Connection connection;
+	public MySql() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public MySql(Connection connection) {
+		this.connection = connection;
+	}
+	
+	public void getFind(String sql){
+		Statement statement;
+		try {
+			statement = (Statement) connection.createStatement();
+			ResultSet rSet = statement.executeQuery(sql);
+			while (rSet.next()) {
+				String linjianhao = rSet.getString("零件号");
+				System.out.println(linjianhao);
+			}
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	
+			
+		}
+	}
+}

@@ -1,0 +1,42 @@
+package dayaseven.cat;
+
+import java.awt.CardLayout;
+import java.util.Scanner;
+
+/**
+*
+*
+*@Author JKermeng
+*@Date 2019年10月12日
+*@Version 1.0.0
+*/
+public class test {
+	static Cat cat;
+	static Cat cat2;
+	public static void main(String[] args) {
+		cat = new Cat();
+		cat2 = new Cat();
+
+		cat.setName("小何");
+		cat.setAge(2);
+		cat.setSex("母");
+		cat2.setAge(99);
+		UpDate ud = new UpDate();
+		Cat cat3[] = new Cat[10];
+		Scanner scanner = new Scanner(System.in);
+		for (int i = 0; i < 2; i++) {
+			cat = new Cat();
+			String name = scanner.next();
+			cat.setName(name);
+			cat3[i]=ud.UpDate(cat);
+		}
+		for (Cat cat : cat3) {
+			System.err.println(cat);
+		}
+	
+		
+		
+		
+	}
+
+}

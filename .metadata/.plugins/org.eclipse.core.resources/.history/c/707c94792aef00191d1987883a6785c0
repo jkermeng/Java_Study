@@ -1,0 +1,37 @@
+package potion;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+/**
+ *
+ *
+ * @Author JKermeng
+ * @Date 2019Äê10ÔÂ15ÈÕ
+ * @Version 1.0.0
+ */
+public class Potion {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		String value = null;
+		String values = "y";
+		String ab = scanner.next();
+		String set[] = {};
+		String protemp[] = {};
+		do {
+		
+			String value = scanner.next();
+			
+			
+			
+			
+			
+			System.out.println(ab.length());
+			ab = scanner.next();
+		} while (ab.equals("y"));
+
+		
+
+	}
+}

@@ -1,0 +1,12 @@
+package dayaseven.charater;
+/**
+*
+*
+*@Author JKermeng
+*@Date 2019Äê10ÔÂ12ÈÕ
+*@Version 1.0.0
+*/
+public class charater {
+
+	private String sfz = null;
+}

@@ -1,0 +1,65 @@
+package dao;
+
+import java.util.Arrays;
+
+import entity.Goods;
+import entity.Result;
+
+public class GoodsDao {
+
+	// 定义装商品的仓库
+	private Goods[] goodStore;
+	
+	public Goods[] getGoodStore() {
+		return goodStore;
+	}
+
+	public void setGoodStore(Goods[] goodStore) {
+		this.goodStore = goodStore;
+	}
+
+	public GoodsDao() {
+		goodStore = new Goods[4];
+		Goods g1 = new Goods(1,"足球",500,90);
+		Goods g2 = new Goods(2,"羽毛球",60,5);
+		Goods g3 = new Goods(3,"篮球",300,120);
+		Goods g4 = new Goods(4,"乒乓球",250,2);
+		goodStore[0] = g1;
+		goodStore[1] = g2;
+		goodStore[2] = g3;
+		goodStore[3] = g4;
+	}
+
+	// 添加商品
+	public Result addGoods(Goods g) {
+		Goods[] goodsCopy = Arrays.copyOf(goodStore, goodStore.length + 1);
+		goodsCopy[goodsCopy.length - 1] = g;
+		goodStore = goodsCopy;
+		return new Result(1, "添加成功");
+	}
+
+	/*
+	 *  删除商品
+	 *  根据商品的ID来删除商品
+	 */
+	public Result deleteGoods(Goods g) {
+		Goods[] gsCopy = new Goods[goodStore.length - 1];
+		int index = 0;
+		for(int j = 0;j<goodStore.length;j++) {
+			if(goodStore[j].getId() != g.getId()) {
+				gsCopy[index] = goodStore[j];
+				index++;
+			}
+		}
+		return new Result(1, "删除成功");
+	}
+	// 查找商品
+
+	// 更新商品
+	
+	//显示商品
+	public Goods[] showGoods() {
+		return goodStore;
+	}
+
+}

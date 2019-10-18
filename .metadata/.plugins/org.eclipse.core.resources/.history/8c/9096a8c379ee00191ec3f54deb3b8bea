@@ -1,0 +1,14 @@
+package dayseven.quiz;
+/**
+*
+*
+*@Author JKermeng
+*@Date 2019Äê10ÔÂ14ÈÕ
+*@Version 1.0.0
+*/
+public class Calulate {
+	private int a =0;
+	private int b = 0;
+	
+	
+}

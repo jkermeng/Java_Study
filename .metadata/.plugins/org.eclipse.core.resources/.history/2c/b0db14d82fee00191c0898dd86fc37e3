@@ -1,0 +1,40 @@
+package SDXLMySql.MySql;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import javax.print.DocFlavor.STRING;
+
+import com.mysql.jdbc.Connection;
+
+/**
+*
+*
+*@Author JKermeng
+*@Date 2019年10月14日
+*@Version 1.0.0
+*/
+public class Main {
+	public Main() {
+		
+	}
+	
+	public static void main(String[] args) {
+	
+		Connection Conn =MySqlConnet.Connect();
+		MySql mySql = new MySql(Conn);
+		String sql = "select * from car";
+		try {
+			ResultSet rSet = (ResultSet) mySql.Find(sql);
+			while(rSet.next()){
+				String c = rSet.getString("型号");
+				System.out.println("型号："+c);
+			}
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		Conn.close();
+	}
+
+}

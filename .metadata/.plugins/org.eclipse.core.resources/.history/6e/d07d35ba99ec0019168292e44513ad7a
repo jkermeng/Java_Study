@@ -1,0 +1,16 @@
+package test;
+/**
+*
+*
+*@Author JKermeng
+*@Date 2019Äê10ÔÂ12ÈÕ
+*@Version 1.0.0
+*/
+public class Test2 {
+
+	public Test2(Test1 t){
+		t.age = 10;
+		t.name = "cc";
+		t.sex = "1";
+	}
+}

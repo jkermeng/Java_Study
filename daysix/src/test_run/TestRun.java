@@ -1,0 +1,22 @@
+package test_run;
+
+import test.Test1;
+import test.Test2;
+
+/**
+*
+*
+*@Author JKermeng
+*@Date 2019Äê10ÔÂ12ÈÕ
+*@Version 1.0.0
+*/
+public class TestRun {
+
+	public static void main(String[] args) {
+		Test1 t1 = new Test1();
+		Test2 t2 = new Test2();
+		t2.Test2(t1);
+		System.out.println(t1.toString());
+	}
+
+}

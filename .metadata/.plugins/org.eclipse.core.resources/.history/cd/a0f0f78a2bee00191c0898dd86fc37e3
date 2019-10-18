@@ -1,0 +1,45 @@
+package dayaseven.quiz;
+
+import java.util.Random;
+import java.util.Scanner;
+
+public class PlayTest {
+
+	public static void main(String[] args) {
+		Role r_robot = new Role();
+		JianShiBu jsb = new JianShiBu();
+		Scanner sc = new Scanner(System.in);
+		System.out.println("请选择对战角色：1：刘备 2：孙权 3：曹操");
+		int robot_name = sc.nextInt();
+		r_robot.setName(r_robot.choeseName(robot_name));
+		System.out.println("请输入您的姓名：");
+		String r_name = sc.next();
+		Role r_man = new Role(r_name);
+		System.out.println(r_name + " VS " + r_robot.getName());
+		System.out.println(" ");
+		System.out.println(" ");
+		System.out.println("要开始了吗？（y/n）：");
+		String start = sc.next();
+		while (start.equals("y")) {
+			System.out.println("您出拳：1、石头 2、剪刀 3、布 （输出相应的数字）");
+			int m_value = sc.nextInt();
+			String m_sjb = r_man.goPlay(m_value);
+			System.out.println("您出的拳：" + m_sjb);
+			Random r = new Random();
+			int r_value = r.nextInt(3) + 1;
+			String r_sjb = r_robot.goPlay(r_value);
+			System.out.println(r_robot.getName() + "出拳：" + r_sjb);
+			JianShiBu result  = jsb.compare(r_man, r_robot);
+			System.out.println(result);
+			System.out.println("是否要重新开始了吗？（y/n）：");
+			String start2 = sc.next();
+
+			if (start2.equals(start)) {
+				continue;
+			} else {
+				start = "n";
+			}
+		}
+
+	}
+}

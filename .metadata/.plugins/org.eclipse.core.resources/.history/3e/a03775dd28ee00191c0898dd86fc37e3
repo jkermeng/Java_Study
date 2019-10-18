@@ -1,0 +1,23 @@
+package SDXLMySql.MySql;
+
+import java.sql.SQLException;
+
+import com.mysql.jdbc.Connection;
+import com.mysql.jdbc.Statement;
+
+/**
+ *
+ *
+ * @Author JKermeng
+ * @Date 2019Äê10ÔÂ14ÈÕ
+ * @Version 1.0.0
+ */
+public class MySql {
+	static Connection connection;
+	public MySql(Connection connection) {
+		this.connection = connection;
+	}
+public void  Find(String sql) throws SQLException {
+	Statement statement = (Statement) connection.createStatement();
+}
+}

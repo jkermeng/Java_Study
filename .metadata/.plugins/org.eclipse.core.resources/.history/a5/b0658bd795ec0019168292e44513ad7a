@@ -1,0 +1,20 @@
+package dayaseven.alltest;
+
+import dayaseven.animal.Cat;
+import dayaseven.animal.Dog;
+
+/**
+*
+*
+*@Author JKermeng
+*@Date 2019Äê10ÔÂ12ÈÕ
+*@Version 1.0.0
+*/
+public class DogAndCatTest {
+	static Dog dog;
+	static Cat cat;
+	public static void main(String[] args) {
+		dog =new Dog();
+	}
+
+}

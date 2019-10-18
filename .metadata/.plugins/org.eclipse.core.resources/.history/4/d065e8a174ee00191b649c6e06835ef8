@@ -1,0 +1,21 @@
+package dayseven.quiz;
+
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.Arrays;
+
+/**
+*
+*
+*@Author JKermeng
+*@Date 2019Äê10ÔÂ14ÈÕ
+*@Version 1.0.0
+*/
+public class ArrarySry {
+
+	
+	public static <E> void sorts(){
+		int num[] = new int[10];
+		Arrays.sort(num);
+	}
+}

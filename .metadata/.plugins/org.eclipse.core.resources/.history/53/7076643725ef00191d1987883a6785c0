@@ -1,0 +1,40 @@
+package potion;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+/**
+ *
+ *
+ * @Author JKermeng
+ * @Date 2019Äê10ÔÂ15ÈÕ
+ * @Version 1.0.0
+ */
+public class Potion {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		String value = null;
+		String values = "y";
+		int a[] = new int[0];
+		int b[] = { 1, 5, 8, 6, 2, 4 };
+		int o = 1;
+		for (int i = 0; i < a.length; i++) {
+			// System.out.println(b.length);
+			if (b.length - i == 0) {
+				a[0] = b[0];
+			
+			} else {
+				a[a.length - o] = b[i];
+				o++;
+				
+			}
+
+			// =b[i];
+		}
+		for (int i : a) {
+			System.out.print(i);
+		}
+
+	}
+}

@@ -1,0 +1,16 @@
+package learnextens;
+/**
+*
+*
+*@Author JKermeng
+*@Date 2019年10月14日
+*@Version 1.0.0
+*/
+public class Farther extends GrandFarther{
+	public int age =30;
+	public void  eat() {
+		
+		System.out.println("喝水"+super.age);
+		this.eat();
+	}
+}

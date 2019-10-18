@@ -1,0 +1,58 @@
+package dayaseven.quiz;
+
+public class JianShiBu {
+	
+	public JianShiBu() {
+		super();
+	}
+
+	private int value;
+	
+	public int getValue() {
+		return value;
+	}
+	public void setValue(int value) {
+		this.value = value;
+	}
+	
+	public JianShiBu(int value) {
+		this.value = value;
+	}
+	
+	
+	
+	public GameResult compare(Role r1,Role r2) {
+		String result = null;
+		GameResult rs = r1.goPlay(this.value);
+		GameResult cs = r2.goPlay(this.value);
+		
+		
+		if (rs.getValue() != 0 && cs.getValue() != 0) {
+			if (rs.getValue() == 1 && cs.getValue() == 1) {
+				result = "平局";
+			}else if(rs.getValue() ==1 && cs.getValue() ==2){
+				result = "赢了";
+				
+			}else if(rs.getValue() ==1 && cs.getValue() ==3){
+				result = "输了";
+			}else if(rs.getValue() ==2 && cs.getValue() ==1){
+				result = "输了";
+			}else if(rs.getValue() ==2 && cs.getValue() ==2){
+				result = "平局";
+			}else if(rs.getValue() ==2 && cs.getValue() ==3){
+				result = "赢了";
+			}else if(rs.getValue() ==3 && cs.getValue() ==1){
+				result = "赢了";
+			}else if(rs.getValue() ==3 && cs.getValue() ==2){
+				result = "输了";
+			}else if(rs.getValue() ==3 && cs.getValue() ==3){
+				result = "平局";
+			}
+		} else {
+			result = "有误输入";
+		}
+
+		return result;
+	}
+
+}

@@ -1,0 +1,18 @@
+package SDXLMySql.MySql;
+
+import com.mysql.jdbc.Connection;
+
+/**
+ *
+ *
+ * @Author JKermeng
+ * @Date 2019Äê10ÔÂ14ÈÕ
+ * @Version 1.0.0
+ */
+public class MySql {
+	static Connection connection;
+	public MySql(Connection connection) {
+		// TODO Auto-generated constructor stub
+	}
+
+}

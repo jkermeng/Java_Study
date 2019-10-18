@@ -1,0 +1,24 @@
+package dayaseven.animal;
+/**
+*
+*
+*@Author JKermeng
+*@Date 2019Äê10ÔÂ12ÈÕ
+*@Version 1.0.0
+*/
+public class Cat {
+
+	public String name;
+	public int age;
+	public String calor;
+	public String sex;
+	public int dollar;
+
+	public void setName(String name ){
+		this.name = name;
+	}public String getName(){
+		return name;
+	}public void setAge(int age){
+		
+	}
+}

@@ -1,0 +1,35 @@
+package SDXLMySql.MySql;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import com.mysql.jdbc.Connection;
+import com.mysql.jdbc.Statement;
+
+/**
+ *
+ *
+ * @Author JKermeng
+ * @Date 2019Äê10ÔÂ14ÈÕ
+ * @Version 1.0.0
+ */
+public class MySql {
+	
+	public Connection connection;
+	public MySql() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public MySql(Connection connection) {
+		this.connection = connection;
+	}
+	
+	public void getFind(String sql){
+		Statement statement = connection.createStatement();
+		ResultSet rSet = statement.executeQuery(sql);
+		while (rSet.next()) {
+			type type = (type) en.nextElement();
+			
+		}
+	}
+}

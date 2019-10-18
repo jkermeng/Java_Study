@@ -1,0 +1,14 @@
+package dayaseven.charater;
+/**
+*
+*
+*@Author JKermeng
+*@Date 2019Äê10ÔÂ12ÈÕ
+*@Version 1.0.0
+*/
+public class charater {
+public static void main(String[] args) {
+	String a = 444444444444444444;
+	System.out.println(a);
+}
+}

@@ -1,0 +1,17 @@
+package dayaseven.animal;
+/**
+*
+*
+*@Author JKermeng
+*@Date 2019Äê10ÔÂ12ÈÕ
+*@Version 1.0.0
+*/
+public class Dog {
+	public String name;
+	public int age ;
+	public String calor;
+
+	public String setName(String name){
+		return name;
+	}
+}

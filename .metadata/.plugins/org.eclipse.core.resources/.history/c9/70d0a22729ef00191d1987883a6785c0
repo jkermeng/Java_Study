@@ -1,0 +1,44 @@
+package potion;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+/**
+ *
+ *
+ * @Author JKermeng
+ * @Date 2019年10月15日
+ * @Version 1.0.0
+ */
+public class Potion {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		String value = null;
+		String values = "y";
+		String ab = scanner.next();
+		int a[] = new int[0];
+		int b[] = {};
+		
+		do {
+			String ad = scanner.next();
+			Arrays.copyOf(a, a.length)
+			System.out.println("还要输入商品输入Y");
+			ab = scanner.next();
+
+		} while (ab.equals("y"));
+
+		for (int i = 0; i < a.length; i++) {
+			if (b.length - i == 0) {
+				continue;
+			} else {
+				a[i] = b[i];
+
+			}
+		}
+		for (int i : a) {
+			System.out.print(i);
+		}
+
+	}
+}

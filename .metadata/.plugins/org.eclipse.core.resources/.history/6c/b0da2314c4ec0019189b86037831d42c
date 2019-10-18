@@ -1,0 +1,27 @@
+package dayseven.sjb;
+
+import java.util.Random;
+import java.util.Scanner;
+
+/**
+ *
+ *
+ * @Author JKermeng
+ * @Date 2019年10月12日
+ * @Version 1.0.0
+ */
+public class test {
+	public static void main(String[] args) {
+		Random random =new Random();
+		people people = new people(1, "jj");
+		people robot = new people("电脑");
+		people.showRole();
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("玩家出拳");
+		int hand = scanner.nextInt();
+		String hangs = people.goPlay(hand);
+		System.out.println(people.getName()+": "+hangs);//玩家出拳
+		System.out.println("电脑人的出拳： "+(robot.goPlay(random.nextInt(3)+1)));		//电脑人随机出拳
+		
+	}
+}

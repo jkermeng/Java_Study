@@ -1,0 +1,20 @@
+package SDXLMySql.MySql;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+/**
+*
+*
+*@Author JKermeng
+*@Date 2019Äê10ÔÂ11ÈÕ
+*@Version 1.0.0
+*/
+public class MySqlTest {
+static String sql = null;
+static MySqlConnet msc = null;
+static ResultSet rs = null;
+	public static void main(String[] args) {
+	}
+
+}

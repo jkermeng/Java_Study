@@ -1,0 +1,27 @@
+package dayaseven.alltest;
+
+import java.util.Random;
+
+/**
+*
+*
+*@Author JKermeng
+*@Date 2019Äê10ÔÂ12ÈÕ
+*@Version 1.0.0
+*/
+public class LearnRamdom {
+
+	public static void main(String[] args) {
+
+		//²ÂÈ­
+		Random random = new Random();
+		int b = random.nextInt(10);
+		for (int i = 0; i < b; i++) {
+			int a = random.nextInt(10);
+			System.out.println(a);
+		}
+		
+		
+	}
+
+}

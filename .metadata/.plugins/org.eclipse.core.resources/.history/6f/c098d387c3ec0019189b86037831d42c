@@ -1,0 +1,16 @@
+package dayseven.sjb;
+/**
+*
+*
+*@Author JKermeng
+*@Date 2019Äê10ÔÂ12ÈÕ
+*@Version 1.0.0
+*/
+public class PanDuan {
+	people people = new people();
+	public boolean result(){
+		
+		return true;
+	}
+
+}

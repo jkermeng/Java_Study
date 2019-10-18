@@ -1,0 +1,22 @@
+package daysix.character2;
+
+/**
+ *
+ *
+ * @Author JKermeng
+ * @Date 2019Äê10ÔÂ11ÈÕ
+ * @Version 1.0.0
+ */
+public class Update {
+	public int id = 0;
+	public String name = null;
+	public Float price = 0.00f;
+	public int num = 0;
+
+	public ShangPingGuangLi[] Update(ShangPingGuangLi[] spgl) {
+
+		return spgl;
+
+	}
+
+}

@@ -1,0 +1,65 @@
+package dayseven.sjb;
+
+import java.lang.invoke.SwitchPoint;
+import java.util.Random;
+
+/**
+*
+*
+*@Author JKermeng
+*@Date 2019年10月12日
+*@Version 1.0.0
+*/
+public class people {
+private String name,hand;
+private int id ;
+public people(){
+	
+}
+public people(int id,String name) {
+	this.name = name;
+	this.id = id;
+}
+public String getName() {
+	return name;
+}
+public void setName(String name) {
+	this.name = name;
+}
+public String getHand() {
+	return hand;
+}
+public void setHand(String hand) {
+	this.hand = hand;
+}
+public int getId() {
+	return id;
+}
+public void setId(int id) {
+	this.id = id;
+}
+public String goPlay(int value){
+	String result;
+	switch (result) {
+	case 1:
+		result = 1;
+		break;
+	case 2:
+		result = 2;
+		break;
+	case 3:
+		result = 3;
+		break;
+	default:
+		System.out.println("输入错误");
+		break;
+	}
+ return	result;
+}
+@Override
+public String toString() {
+	return "people [姓名=" + name + ", 出拳=" + hand + ", id=" + id + "]";
+}
+
+	
+}

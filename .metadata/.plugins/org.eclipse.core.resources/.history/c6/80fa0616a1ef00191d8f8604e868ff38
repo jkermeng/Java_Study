@@ -1,0 +1,71 @@
+package service;
+
+import java.util.Scanner;
+
+import dao.GoodsDao;
+import entity.Goods;
+import entity.Result;
+
+public class GoodsService {
+
+	public static void main(String[] args) {
+		GoodsDao gDao = new GoodsDao();
+		Scanner sc = new Scanner(System.in);
+		String flag = null;
+		//gDao.showGoods——》创建了一个Goods模版
+		Goods[] gs = gDao.showGoods();
+
+		System.out.print("商品ID\t商品名称\t商品数量\t商品价格\t\n");
+		for (Goods g : gs) {
+			System.out.print(g.getId() + "\t" + g.getName() + "\t" + g.getNum() + "\t" + g.getPrice() + "\t\n");
+		}
+		int index = 0;
+		while(index != 5) {
+			System.out.println("选择操作（1.商品添加  2.商品删除  3.商品修改  4.商品查看  5.退出）:");
+			index = sc.nextInt();
+			switch (index) {
+			case 1:
+				do {
+					System.out.println("请输入商品ID:");
+					int id = sc.nextInt();
+					System.out.println("请输入商品名称:");
+					String name = sc.next();
+					System.out.println("请输入商品单价:");
+					float price = sc.nextFloat();
+					System.out.println("请输入商品数量:");
+					int num = sc.nextInt();
+
+					Goods g = new Goods(id, name, num, price);
+					Result res = gDao.addGoods(g);
+					System.out.println(res.getStatu());
+					System.out.println("继续添加？(y/n):");
+					flag = sc.next();
+				} while (flag.equals("y"));
+				break;
+			case 2:
+
+				break;
+			case 3:
+
+				break;
+			case 4:
+				gs = gDao.showGoods();
+				System.out.print("商品ID\t商品名称\t商品数量\t商品价格\t\n");
+				for (Goods g : gs) {
+					System.out.print(g.getId() + "\t" + g.getName() + "\t" + g.getNum() + "\t" + g.getPrice() + "\t\n");
+				}
+				break;
+			case 5:
+				index = 5;
+				break;
+			default:
+				index = 5;
+				break;
+			}
+		}
+		
+		sc.close();
+
+	}
+
+}

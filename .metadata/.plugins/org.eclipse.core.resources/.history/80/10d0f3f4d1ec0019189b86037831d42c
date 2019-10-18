@@ -1,0 +1,30 @@
+package dayaseven.cat;
+
+import java.awt.CardLayout;
+
+/**
+*
+*
+*@Author JKermeng
+*@Date 2019年10月12日
+*@Version 1.0.0
+*/
+public class test {
+	static Cat cat;
+	static Cat cat2;
+	public static void main(String[] args) {
+		cat = new Cat();
+		cat2 = new Cat();
+
+		cat.setName("小何");
+		cat.setAge(2);
+		cat.setSex("母");
+		
+		Cat cat[] = new Cat[10];
+	
+		
+		
+		
+	}
+
+}

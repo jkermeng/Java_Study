@@ -1,0 +1,13 @@
+package dayfive.arr;
+
+public class arr_learn {
+
+	public static void main(String[] args) {
+
+		int arr_int[] = {1,2,3,4,5};
+		String arr_str[] = {"2","asd","zxc","123"};
+		double arr_doub[] = {2.2,2.33,2.4444,2.6678};
+		
+	}
+
+}

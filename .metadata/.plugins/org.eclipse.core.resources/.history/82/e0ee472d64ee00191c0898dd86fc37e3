@@ -1,0 +1,23 @@
+package learnextens;
+
+/**
+ *
+ *
+ * @Author JKermeng
+ * @Date 2019Äê10ÔÂ14ÈÕ
+ * @Version 1.0.0
+ */
+public class Son extends Farther {
+	public Son(int age) {
+		super(age);
+		// TODO Auto-generated constructor stub
+	}
+
+	public int age = 10;
+
+	public void eat(int age) {
+		super.eat(age);
+		System.out.println("³Ô±ù¹÷"+this.age);
+	}
+
+}

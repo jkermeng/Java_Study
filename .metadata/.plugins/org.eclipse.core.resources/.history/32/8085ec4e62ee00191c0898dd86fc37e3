@@ -1,0 +1,14 @@
+package learnextens;
+/**
+*
+*
+*@Author JKermeng
+*@Date 2019年10月14日
+*@Version 1.0.0
+*/
+public class Farther {
+	public int age =99;
+	public void  eat() {
+		System.out.println("喝水");
+	}
+}
