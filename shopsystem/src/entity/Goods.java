@@ -1,4 +1,4 @@
-package potion;
+package entity;
 /**
 *
 *
@@ -9,7 +9,7 @@ package potion;
 public class Goods {
 	private int id ;
 	private String name ;
-	private int prince;
+	private double prince;
 	private int num;
 	
 	public Goods() {
@@ -17,7 +17,7 @@ public class Goods {
 	}
 
 	
-	public Goods(int id, String name, int prince, int num) {
+	public Goods(int id, String name, double prince, int num) {
 		super();
 		this.id = id;
 		this.name = name;
@@ -36,10 +36,10 @@ public class Goods {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public int getPrince() {
+	public double getPrince() {
 		return prince;
 	}
-	public void setPrince(int prince) {
+	public void setPrince(double prince) {
 		this.prince = prince;
 	}
 	public int getNum() {
