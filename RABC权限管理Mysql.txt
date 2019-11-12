@@ -1,0 +1,183 @@
+CREATE TABLE tgroup (
+    tg_id          INTEGER NOT NULL COMMENT 'pk, not null',
+    group_name     VARCHAR(64) NOT NULL COMMENT 'not null',
+    parent_tg_id   INTEGER NOT NULL COMMENT 'not null',
+    gen_time       DATE NOT NULL COMMENT 'not null',
+    DESCRIPTION    VARCHAR(200)
+);
+
+ALTER TABLE tgroup ADD CONSTRAINT 组表_pk PRIMARY KEY ( tg_id );
+
+-- Error - Unique Constraint TGroup.组_PK doesn't have columns
+
+CREATE TABLE tgrouprightrelation (
+    tgr_id       INTEGER NOT NULL COMMENT 'pk, not null',
+    right_type   INTEGER NOT NULL COMMENT 'not null（0:可访问，1:可授权）',
+    tr_id        INTEGER NOT NULL COMMENT 'fk, not null',
+    tg_id        INTEGER NOT NULL COMMENT 'fk, not null'
+);
+
+ALTER TABLE tgrouprightrelation ADD CONSTRAINT 组权限表_pk PRIMARY KEY ( tgr_id );
+
+CREATE TABLE tgrouprolerelation (
+    tgr_id   INTEGER NOT NULL COMMENT 'pk, not null',
+    tg_id    INTEGER NOT NULL COMMENT 'fk, not null',
+    tr_id    INTEGER NOT NULL COMMENT 'fk, not null'
+);
+
+ALTER TABLE tgrouprolerelation ADD CONSTRAINT 组角色表_pk PRIMARY KEY ( tgr_id );
+
+CREATE TABLE tlog (
+    log_id     INTEGER NOT NULL COMMENT 'pk, not null',
+    op_type    INTEGER NOT NULL COMMENT 'not null',
+    content    VARCHAR(200) NOT NULL COMMENT 'not null',
+    gen_time   DATE NOT NULL COMMENT 'not null',
+    tu_id      INTEGER NOT NULL COMMENT 'fk, not null'
+);
+
+
+ALTER TABLE tlog ADD CONSTRAINT 操作日志表_pk PRIMARY KEY ( log_id );
+
+CREATE TABLE torganization (
+    to_id          INTEGER NOT NULL COMMENT 'pk, not null',
+    parent_to_id   INTEGER NOT NULL COMMENT 'not null',
+    org_name       VARCHAR(64) NOT NULL COMMENT 'not null',
+    gen_time       DATE NOT NULL COMMENT 'not null',
+    DESCRIPTION    VARCHAR(200)
+);
+
+ALTER TABLE torganization ADD CONSTRAINT 组织表_pk PRIMARY KEY ( to_id );
+
+CREATE TABLE tright (
+    tr_id          INTEGER NOT NULL COMMENT  'pk, not null',
+    parent_tr_id   INTEGER NOT NULL COMMENT  'not null',
+    right_name     VARCHAR(64) NOT NULL COMMENT  'not null',
+    DESCRIPTION    VARCHAR(200)
+);
+
+ALTER TABLE tright ADD CONSTRAINT 权限表_pk PRIMARY KEY ( tr_id );
+
+-- Error - Unique Constraint TRight.权限_PK doesn't have columns
+
+CREATE TABLE trole (
+    tr_id          INTEGER NOT NULL COMMENT 'pk, not null',
+    parent_tr_id   INTEGER NOT NULL COMMENT  'not null',
+    role_name      VARCHAR(64) NOT NULL COMMENT  'not null',
+    gen_time       DATE NOT NULL COMMENT  'not null',
+    DESCRIPTION    VARCHAR(200)
+);
+
+ALTER TABLE trole ADD CONSTRAINT 角色表_pk PRIMARY KEY ( tr_id );
+
+-- Error - Unique Constraint TRole.角色_PK doesn't have columns
+
+CREATE TABLE trolerightrelation (
+    trr_id       INTEGER NOT NULL COMMENT 'pk, not null',
+    right_type   INTEGER NOT NULL COMMENT 'not null（0:可访问，1:可授权)',
+    right_id     INTEGER NOT NULL COMMENT 'fk, not null',
+    role_id      INTEGER NOT NULL COMMENT 'fk, not null'
+);
+
+
+ALTER TABLE trolerightrelation ADD CONSTRAINT 角色权限表_pk PRIMARY KEY ( trr_id );
+
+CREATE TABLE tuser (
+    tu_id             INTEGER NOT NULL COMMENT 'pk, not null',
+    login_name        VARCHAR(64) NOT NULL COMMENT 'not null',
+    PASSWORD          VARCHAR(64) NOT NULL COMMENT 'not null',
+    vsername          VARCHAR(64) NOT NULL COMMENT 'not null',
+    mobile            VARCHAR(20),
+    email             VARCHAR(64),
+    gen_time          DATE NOT NULL COMMENT 'not null',
+    login_time        DATE,
+    last_login_time   DATE,
+    COUNT             INTEGER NOT NULL COMMENT 'not null',
+    to_id             INTEGER NOT NULL COMMENT 'fk, not null'
+);
+
+ALTER TABLE tuser ADD CONSTRAINT 用户表_pk PRIMARY KEY ( tu_id );
+
+-- Error - Unique Constraint TUser.用户_PK doesn't have columns
+
+CREATE TABLE tusergrouprelation (
+    tug_id   INTEGER NOT NULL COMMENT 'pk, not null',
+    tg_id    INTEGER NOT NULL COMMENT 'fk, not null',
+    tu_id    INTEGER NOT NULL COMMENT 'fk, not null'
+);
+
+
+ALTER TABLE tusergrouprelation ADD CONSTRAINT 用户组表_pk PRIMARY KEY ( tug_id );
+
+CREATE TABLE tuserrightrelation (
+    tur_id       INTEGER NOT NULL COMMENT 'pk, not null',
+    right_type   INTEGER NOT NULL COMMENT 'not null（0:可访问，1:可授权)',
+    tr_id        INTEGER NOT NULL COMMENT 'fk, not null',
+    tu_id        INTEGER NOT NULL COMMENT 'fk, not null'
+);
+
+ALTER TABLE tuserrightrelation ADD CONSTRAINT 用户权限表_pk PRIMARY KEY ( tur_id );
+
+CREATE TABLE tuserrolerelation (
+    tur_id   INTEGER NOT NULL COMMENT 'pk, not null',
+    tr_id    INTEGER NOT NULL COMMENT 'fk, not null',
+    tu_id    INTEGER NOT NULL COMMENT 'fk, not null'
+);
+
+ALTER TABLE tuserrolerelation ADD CONSTRAINT 用户角色表_pk PRIMARY KEY ( tur_id );
+
+ALTER TABLE tlog
+    ADD CONSTRAINT 操作日志表_用户表_fk FOREIGN KEY ( tu_id )
+        REFERENCES tuser ( tu_id );
+
+ALTER TABLE trolerightrelation
+    ADD CONSTRAINT 角色权限表_角色表_fk FOREIGN KEY ( role_id )
+        REFERENCES trole ( tr_id );
+
+ALTER TABLE trolerightrelation
+    ADD CONSTRAINT 角色权限表_权限表_fk FOREIGN KEY ( right_id )
+        REFERENCES tright ( tr_id );
+
+ALTER TABLE tuser
+    ADD CONSTRAINT 用户表_组织表_fk FOREIGN KEY ( to_id )
+        REFERENCES torganization ( to_id );
+
+ALTER TABLE tuserrolerelation
+    ADD CONSTRAINT 用户角色表_角色表_fk FOREIGN KEY ( tr_id )
+        REFERENCES trole ( tr_id );
+
+ALTER TABLE tuserrolerelation
+    ADD CONSTRAINT 用户角色表_用户表_fk FOREIGN KEY ( tu_id )
+        REFERENCES tuser ( tu_id );
+
+ALTER TABLE tuserrightrelation
+    ADD CONSTRAINT 用户权限表_权限表_fk FOREIGN KEY ( tr_id )
+        REFERENCES tright ( tr_id );
+
+ALTER TABLE tuserrightrelation
+    ADD CONSTRAINT 用户权限表_用户表_fk FOREIGN KEY ( tu_id )
+        REFERENCES tuser ( tu_id );
+
+ALTER TABLE tusergrouprelation
+    ADD CONSTRAINT 用户组表_用户表_fk FOREIGN KEY ( tu_id )
+        REFERENCES tuser ( tu_id );
+
+ALTER TABLE tusergrouprelation
+    ADD CONSTRAINT 用户组表_组表_fk FOREIGN KEY ( tg_id )
+        REFERENCES tgroup ( tg_id );
+
+ALTER TABLE tgrouprolerelation
+    ADD CONSTRAINT 组角色表_角色表_fk FOREIGN KEY ( tr_id )
+        REFERENCES trole ( tr_id );
+
+ALTER TABLE tgrouprolerelation
+    ADD CONSTRAINT 组角色表_组表_fk FOREIGN KEY ( tg_id )
+        REFERENCES tgroup ( tg_id );
+
+ALTER TABLE tgrouprightrelation
+    ADD CONSTRAINT 组权限表_权限表_fk FOREIGN KEY ( tr_id )
+        REFERENCES tright ( tr_id );
+
+ALTER TABLE tgrouprightrelation
+    ADD CONSTRAINT 组权限表_组表_fk FOREIGN KEY ( tg_id )
+        REFERENCES tgroup ( tg_id );
+
