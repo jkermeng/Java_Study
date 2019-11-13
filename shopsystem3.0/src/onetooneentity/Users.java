@@ -16,6 +16,22 @@ public class Users {
 		super();
 	}
 
+	public Users(String uname, String uphone) {
+		super();
+		this.uname = uname;
+		this.uphone = uphone;
+	}
+
+	public Users(Integer uid) {
+		super();
+		this.uid = uid;
+	}
+
+	public Users(String uphone) {
+		super();
+		this.uphone = uphone;
+	}
+
 	public Users(Integer uid, String uname, String uphone, String ugender) {
 		super();
 		this.uid = uid;
@@ -70,6 +86,12 @@ public class Users {
 
 	public void setOrder(Orders order) {
 		this.order = order;
+	}
+
+	@Override
+	public String toString() {
+		return "Users [uid=" + uid + ", uname=" + uname + ", uphone=" + uphone + ", ugender=" + ugender + ", scart="
+				+ scart + ", order=" + order + "]";
 	}
 
 }

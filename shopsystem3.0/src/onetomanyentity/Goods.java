@@ -9,24 +9,28 @@ public class Goods {
 	private String gname;// 商品名称
 	private Double gprice;// 商品单价
 	private Integer gstock;// 商品库存
-	private Integer classification_cid;
+	private _Classification setClassfy;// fk
+
 	// 关系
 	private Set<OrderDetails> odetails;
 	private Set<ShopCart> setShoCart;
-	private _Classification setClassfy;
 	private Set<GoodsPicture> gp;
 
 	public Goods() {
 		super();
 	}
 
-	public Goods(Integer gid, String gname, Double gprice, Integer gstock, Integer classification_cid) {
+	public Goods(Integer gid, String gname, Double gprice, Integer gstock) {
 		super();
 		this.gid = gid;
 		this.gname = gname;
 		this.gprice = gprice;
 		this.gstock = gstock;
-		this.classification_cid = classification_cid;
+	}
+
+	public Goods(Integer gid) {
+		super();
+		this.gid = gid;
 	}
 
 	public Integer getGid() {
@@ -43,10 +47,6 @@ public class Goods {
 
 	public Integer getGstock() {
 		return gstock;
-	}
-
-	public Integer getClassification_cid() {
-		return classification_cid;
 	}
 
 	public Set<OrderDetails> getOdetails() {
@@ -81,10 +81,6 @@ public class Goods {
 		this.gstock = gstock;
 	}
 
-	public void setClassification_cid(Integer classification_cid) {
-		this.classification_cid = classification_cid;
-	}
-
 	public void setOdetails(Set<OrderDetails> odetails) {
 		this.odetails = odetails;
 	}
@@ -104,8 +100,8 @@ public class Goods {
 	@Override
 	public String toString() {
 		return "Goods [gid=" + gid + ", gname=" + gname + ", gprice=" + gprice + ", gstock=" + gstock
-				+ ", classification_cid=" + classification_cid + ", odetails=" + odetails + ", setShoCart=" + setShoCart
-				+ ", setClassfy=" + setClassfy + ", gp=" + gp + "]";
+				+ ", classification_cid=" + setClassfy + ", odetails=" + odetails + ", setShoCart=" + setShoCart
+				+ ", gp=" + gp + "]";
 	}
 
 }

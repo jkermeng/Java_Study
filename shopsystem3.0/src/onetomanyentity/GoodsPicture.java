@@ -4,7 +4,7 @@ public class GoodsPicture {
 	private Integer pid;// Í¼Æ¬id
 	private String pname;// Ãû³Æ
 	private String purl;// Í¼Æ¬URL
-	private Integer goods_gid;
+	private Goods goods_gid;
 	// ¹ØÏµ
 	private Goods good;
 
@@ -12,12 +12,11 @@ public class GoodsPicture {
 		super();
 	}
 
-	public GoodsPicture(Integer pid, String pname, String purl, Integer goods_gid) {
+	public GoodsPicture(Integer pid, String pname, String purl) {
 		super();
 		this.pid = pid;
 		this.pname = pname;
 		this.purl = purl;
-		this.goods_gid = goods_gid;
 	}
 
 	public Integer getPid() {
@@ -32,8 +31,12 @@ public class GoodsPicture {
 		return purl;
 	}
 
-	public Integer getGoods_gid() {
+	public Goods getGoods_gid() {
 		return goods_gid;
+	}
+
+	public void setGoods_gid(Goods goods_gid) {
+		this.goods_gid = goods_gid;
 	}
 
 	public Goods getGood() {
@@ -50,10 +53,6 @@ public class GoodsPicture {
 
 	public void setPurl(String purl) {
 		this.purl = purl;
-	}
-
-	public void setGoods_gid(Integer goods_gid) {
-		this.goods_gid = goods_gid;
 	}
 
 	public void setGood(Goods good) {

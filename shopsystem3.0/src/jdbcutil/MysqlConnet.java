@@ -9,6 +9,9 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.Properties;
 
+import util.IPreparedStatement;
+import util.IResultSet;
+
 public class MysqlConnet {
 	private static String url = null;
 	private static String username = null;
@@ -72,5 +75,4 @@ public class MysqlConnet {
 		}
 	}
 
-	
 }

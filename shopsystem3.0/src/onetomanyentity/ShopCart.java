@@ -6,7 +6,6 @@ import onetooneentity.Users;
 
 public class ShopCart {
 	private Integer cid;// 购物车id
-	private Integer user_uid;
 	// 关系
 	private Users use;
 	private Set<Goods> setgoods;
@@ -15,18 +14,13 @@ public class ShopCart {
 		super();
 	}
 
-	public ShopCart(Integer cid, Integer user_uid) {
+	public ShopCart(Integer cid) {
 		super();
 		this.cid = cid;
-		this.user_uid = user_uid;
 	}
 
 	public Integer getCid() {
 		return cid;
-	}
-
-	public Integer getUser_uid() {
-		return user_uid;
 	}
 
 	public Users getUse() {
@@ -41,16 +35,17 @@ public class ShopCart {
 		this.cid = cid;
 	}
 
-	public void setUser_uid(Integer user_uid) {
-		this.user_uid = user_uid;
-	}
-
 	public void setUse(Users use) {
 		this.use = use;
 	}
 
 	public void setSetgoods(Set<Goods> setgoods) {
 		this.setgoods = setgoods;
+	}
+
+	@Override
+	public String toString() {
+		return "ShopCart [cid=" + cid + ", use=" + use + ", setgoods=" + setgoods + "]";
 	}
 
 }

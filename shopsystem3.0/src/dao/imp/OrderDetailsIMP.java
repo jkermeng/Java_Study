@@ -11,6 +11,7 @@ import idao.IDao;
 import jdbcutil.MysqlConnet;
 import mtomentity.OrderDetails;
 import onetomanyentity.Goods;
+import onetomanyentity.Orders;
 
 public class OrderDetailsIMP implements IDao<OrderDetails> {
 	private Connection conn;
@@ -32,13 +33,14 @@ public class OrderDetailsIMP implements IDao<OrderDetails> {
 			while (rs.next()) {
 				int detailedid = rs.getInt("detailedid");
 				int detailednumber = rs.getInt("detailednumber");
-				int goods_gid = rs.getInt("goods_gid");
-				int order_oid = rs.getInt("order_oid");
+				int goods_gid = rs.getInt("goods_gid");//
+				int order_oid = rs.getInt("order_oid");//
 				double goodsprice = rs.getDouble("goodsprice");
 				double detailedtotal = rs.getDouble("detailedtotal");
 				String detailedname = rs.getString("detailedname");
-				OrderDetails od = new OrderDetails(detailedid, detailedname, detailednumber, goodsprice, detailedtotal,
-						goods_gid, order_oid);
+				OrderDetails od = new OrderDetails(detailedid, detailedname, detailednumber, goodsprice, detailedtotal);
+				od.setGoods_gid(new Goods(goods_gid));
+				od.setOrder_oid(new Orders(order_oid));
 				setOrderDetails.add(od);
 			}
 		}
@@ -47,9 +49,39 @@ public class OrderDetailsIMP implements IDao<OrderDetails> {
 	}
 
 	@Override
-	public OrderDetails selectById(int id) {
-		// TODO Auto-generated method stub
-		return null;
+	public OrderDetails selectById(int id) throws SQLException {
+		Set<OrderDetails> select = select(null);
+		OrderDetails od = new OrderDetails();
+		for (OrderDetails orderDetails : select) {
+			if (orderDetails.getDetailedid() == id) {
+				od = orderDetails;
+			}
+		}
+		return od;
+	}
+
+	public OrderDetails selectByGid(int Gid) throws SQLException {
+		Set<OrderDetails> select = select(null);
+		OrderDetails od = new OrderDetails();
+		for (OrderDetails orderDetails : select) {
+			if (orderDetails.getGoods_gid().getGid() == Gid) {
+				od = orderDetails;
+			}
+		}
+		return od;
+
+	}
+
+	public Set<OrderDetails> selectByOrderid(int Orderid) throws SQLException {
+		Set<OrderDetails> select = select(null);
+		Set<OrderDetails> sod = new HashSet();
+		for (OrderDetails orderDetails : select) {
+			if (orderDetails.getOrder_oid().getOid() == Orderid) {
+				sod.add(orderDetails);
+			}
+		}
+		return sod;
+
 	}
 
 	@Override

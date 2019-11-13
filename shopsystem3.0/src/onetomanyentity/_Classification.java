@@ -7,9 +7,13 @@ public class _Classification {
 	private String cname;// 类别名
 	// 关系
 	private Set<Goods> setgoods;
-
 	public _Classification() {
 		super();
+	}
+
+	public _Classification(Integer cid) {
+		super();
+		this.cid = cid;
 	}
 
 	public _Classification(Integer cid, String cname) {
