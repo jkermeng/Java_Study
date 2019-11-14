@@ -1,0 +1,111 @@
+
+CREATE TABLE department (
+    did              INTEGER NOT NULL,
+    dname            VARCHAR2(255),
+    dnumber          INTEGER,
+    dcreatdatetime   DATE,
+    dbrief           VARCHAR2(255),
+    dremarks         VARCHAR2(255)
+);
+
+ALTER TABLE department ADD CONSTRAINT department_pk PRIMARY KEY ( did );
+
+CREATE TABLE employee (
+    eid              INTEGER NOT NULL,
+    ename            VARCHAR2(255),
+    enumber          VARCHAR2(255),
+    epassword        VARCHAR2(255),
+    egender          VARCHAR2(2),
+    ephone           VARCHAR2(255),
+    eemail           VARCHAR2(255),
+    estatus          VARCHAR2(20),
+    department_did   INTEGER NOT NULL
+);
+
+ALTER TABLE employee ADD CONSTRAINT employee_pk PRIMARY KEY ( eid );
+
+CREATE TABLE firstpower (
+    fpid     INTEGER NOT NULL,
+    fpname   VARCHAR2(255)
+);
+
+ALTER TABLE firstpower ADD CONSTRAINT firstpower_pk PRIMARY KEY ( fpid );
+
+CREATE TABLE job (
+    jid              INTEGER NOT NULL,
+    jname            VARCHAR2(255),
+    jnumber          VARCHAR2(255),
+    jexplain         VARCHAR2(255),
+    department_did   INTEGER NOT NULL
+);
+
+ALTER TABLE job ADD CONSTRAINT job_pk PRIMARY KEY ( jid );
+
+CREATE TABLE owner (
+    lockstatus        VARCHAR2(255),
+    role_rid          INTEGER NOT NULL,
+    firstpower_fpid   INTEGER NOT NULL
+);
+
+CREATE TABLE ownerjob (
+    jointime       DATE,
+    lefttime       DATE,
+    employee_eid   INTEGER NOT NULL,
+    job_jid        INTEGER NOT NULL
+);
+
+CREATE TABLE role (
+    rid        INTEGER NOT NULL,
+    rname      VARCHAR2(255),
+    rexplain   VARCHAR2(255),
+    job_jid    INTEGER NOT NULL
+);
+
+CREATE UNIQUE INDEX role__idx ON
+    role (
+        job_jid
+    ASC );
+
+ALTER TABLE role ADD CONSTRAINT role_pk PRIMARY KEY ( rid );
+
+CREATE TABLE secondpower (
+    spid              INTEGER NOT NULL,
+    spname            VARCHAR2(255),
+    functionurl       VARCHAR2(255),
+    firstpower_fpid   INTEGER NOT NULL
+);
+
+ALTER TABLE secondpower ADD CONSTRAINT secondpower_pk PRIMARY KEY ( spid );
+
+ALTER TABLE employee
+    ADD CONSTRAINT employee_department_fk FOREIGN KEY ( department_did )
+        REFERENCES department ( did );
+
+ALTER TABLE job
+    ADD CONSTRAINT job_department_fk FOREIGN KEY ( department_did )
+        REFERENCES department ( did );
+
+ALTER TABLE owner
+    ADD CONSTRAINT owner_firstpower_fk FOREIGN KEY ( firstpower_fpid )
+        REFERENCES firstpower ( fpid );
+
+ALTER TABLE owner
+    ADD CONSTRAINT owner_role_fk FOREIGN KEY ( role_rid )
+        REFERENCES role ( rid );
+
+ALTER TABLE ownerjob
+    ADD CONSTRAINT ownerjob_employee_fk FOREIGN KEY ( employee_eid )
+        REFERENCES employee ( eid );
+
+ALTER TABLE ownerjob
+    ADD CONSTRAINT ownerjob_job_fk FOREIGN KEY ( job_jid )
+        REFERENCES job ( jid );
+
+ALTER TABLE role
+    ADD CONSTRAINT role_job_fk FOREIGN KEY ( job_jid )
+        REFERENCES job ( jid );
+
+ALTER TABLE secondpower
+    ADD CONSTRAINT secondpower_firstpower_fk FOREIGN KEY ( firstpower_fpid )
+        REFERENCES firstpower ( fpid );
+
