@@ -1,0 +1,112 @@
+
+
+CREATE TABLE classification (
+    cid     INTEGER NOT NULL AUTO_INCREMENT COMMENT  "类别id",
+    cname   VARCHAR(255) NOT NULL COMMENT  "类别名",
+    PRIMARY KEY ( cid )
+);
+
+CREATE TABLE goods (
+    gid                  INTEGER NOT NULL AUTO_INCREMENT COMMENT  "商品id",
+    gname                VARCHAR(255) NOT NULL COMMENT  "商品名称",
+    gprice               DOUBLE(255,2) COMMENT  "商品单价",
+    gstock               INTEGER COMMENT  "商品库存",
+    classification_cid   INTEGER NOT NULL,
+    PRIMARY KEY ( gid )
+);
+
+
+
+
+CREATE TABLE goodspicture (
+    pid         INTEGER NOT NULL AUTO_INCREMENT COMMENT   "图片id",
+    purl        VARCHAR(255) COMMENT    "图片URL",
+    pname       VARCHAR(255) NOT NULL COMMENT "名称",
+    goods_gid   INTEGER NOT NULL,
+    PRIMARY KEY ( pid )
+);
+
+
+
+CREATE TABLE orders (
+    oid           INTEGER NOT NULL AUTO_INCREMENT COMMENT "订单号",
+    ostart_time   DATE NOT NULL COMMENT  "订单时间",
+    ototal        DOUBLE(255,2) COMMENT  "订单总额",
+    ostatus       VARCHAR(20) NOT NULL COMMENT "订单状态",
+    user_uid      INTEGER NOT NULL,
+    PRIMARY KEY ( oid )
+);
+
+
+CREATE TABLE orderdetailed (
+    detailedid       INTEGER NOT NULL AUTO_INCREMENT COMMENT "子项id",
+    detailedname     VARCHAR(255) NOT NULL COMMENT "商品名称",
+    detailednumber   INTEGER COMMENT  "购买数量",
+    goodsprice        DOUBLE(255,2) COMMENT  "商品单价",
+    detailedtotal    DOUBLE(255,2) COMMENT  "小计",
+    goods_gid        INTEGER NOT NULL ,
+    order_oid        INTEGER NOT NULL ,
+    PRIMARY KEY ( detailedid )
+);
+
+
+CREATE TABLE relation_4 (
+    cid   INTEGER NOT NULL,
+    gid   INTEGER NOT NULL
+);
+
+ALTER TABLE relation_4 ADD CONSTRAINT relation_4_pk PRIMARY KEY ( cid,gid );
+
+CREATE TABLE shopcart (
+    cid        INTEGER NOT NULL  COMMENT  "购物车id",
+    user_uid   INTEGER NOT NULL
+);
+
+
+CREATE UNIQUE INDEX 购物车__idx ON
+    shopcart (
+        user_uid
+    ASC );
+
+ALTER TABLE shopcart ADD CONSTRAINT shopcart_pk PRIMARY KEY ( cid );
+
+CREATE TABLE USER (
+    uid     INTEGER NOT NULL AUTO_INCREMENT COMMENT "用户id",
+    uname     VARCHAR(255) NOT NULL COMMENT  "用户名称",
+    uphone    VARCHAR(20) NOT NULL COMMENT "用户手机",
+    ugender   VARCHAR(2) COMMENT  "性别",
+    PRIMARY KEY ( uid )
+);
+
+ALTER TABLE goods
+    ADD CONSTRAINT goods_classification_fk FOREIGN KEY ( classification_cid )
+        REFERENCES classification ( cid );
+
+ALTER TABLE goodspicture
+    ADD CONSTRAINT goodspicture_goods_fk FOREIGN KEY ( goods_gid )
+        REFERENCES goods ( gid );
+
+ALTER TABLE orders
+    ADD CONSTRAINT order_user_fk FOREIGN KEY ( user_uid )
+        REFERENCES USER  ( uid );
+
+ALTER TABLE orderdetailed
+    ADD CONSTRAINT orderdetailed_goods_fk FOREIGN KEY ( goods_gid )
+        REFERENCES goods ( gid );
+
+ALTER TABLE orderdetailed
+    ADD CONSTRAINT orderdetailed_order_fk FOREIGN KEY ( order_oid )
+        REFERENCES orders ( oid );
+
+ALTER TABLE relation_4
+    ADD CONSTRAINT relation_4_购物车_fk FOREIGN KEY ( cid )
+        REFERENCES shopcart ( cid );
+
+ALTER TABLE relation_4
+    ADD CONSTRAINT relation_4_商品_fk FOREIGN KEY ( gid )
+        REFERENCES goods ( gid );
+
+ALTER TABLE shopcart
+    ADD CONSTRAINT shopcart_user_fk FOREIGN KEY ( user_uid )
+        REFERENCES USER ( uid);
+
