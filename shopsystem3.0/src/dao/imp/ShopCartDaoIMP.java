@@ -1,9 +1,11 @@
 package dao.imp;
 
 import java.sql.Connection;
+import java.sql.Date;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.time.format.DateTimeFormatter;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -12,55 +14,55 @@ import onetomanyentity.Goods;
 import onetomanyentity.ShopCart;
 import onetomanyentity._Classification;
 import onetooneentity.Users;
+import util.DateUtil;
 
 public class ShopCartDaoIMP {
 	private Connection conn;
 	private PreparedStatement ps;
 
-	public static void main(String[] args) throws SQLException {
-		Set<Goods> selectGoodsByCartId = new ShopCartDaoIMP().selectGoodsByCartId(1);
-		for (Goods goods : selectGoodsByCartId) {
-
-			System.out.println(goods);
-		}
-	}
-
-	public Set<Goods> selectGoodsByUsersId(int usersid) throws SQLException {
+	public Set<ShopCart> selectGoodsByUsersId(int usersid) throws SQLException {
 		conn = MysqlConnet.Connect();
-		Set<Goods> setgoods = new HashSet<>();
-		String sql = "SELECT g.* FROM goods g LEFT JOIN relation_4 r4 ON g.gid = r4.gid LEFT JOIN shopcart st ON st.cid = r4.cid WHERE st.user_uid = ?";
+		Set<ShopCart> setgoods = new HashSet<>();
+		Set<Goods> setg = new HashSet<>();
+		String sql = "SELECT g.gid, g.gname,g.gprice,g.classification_cid ,r4.gtime , r4.gnumber FROM goods g LEFT JOIN relation_4 r4 ON g.gid = r4.gid LEFT JOIN shopcart st ON st.cid = r4.cid WHERE st.user_uid = ?";
 		ps = conn.prepareStatement(sql);
 		ps.setInt(1, usersid);
 		ResultSet rs = ps.executeQuery();
 		while (rs.next()) {
+			int gnumber = rs.getInt("gnumber");
+			Date date = rs.getDate("gtime");
+			String gtime = DateUtil.dateToStr(date, "YYYY-MM-dd");
 			String gname = rs.getString("gname");
 			double gprice = rs.getDouble("gprice");
 			int gid = rs.getInt("gid");
-			int gstock = rs.getInt("gstock");
-			int cid = rs.getInt("classification_cid");
-			Goods g = new Goods(gid, gname, gprice, gstock);
-			g.setSetClassfy(new _Classification(cid));
-			setgoods.add(g);
+			Goods g = new Goods(gid, gname, gprice);
+			ShopCart sc = new ShopCart(gtime, gnumber);
+			sc.setG(g);
+			setgoods.add(sc);
 		}
 		return setgoods;
 	}
 
-	public Set<Goods> selectGoodsByCartId(int cartid) throws SQLException {
+	public Set<ShopCart> selectGoodsByCartId(int cartid) throws SQLException {
 		conn = MysqlConnet.Connect();
-		Set<Goods> setgoods = new HashSet<>();
-		String sql = "SELECT g.* FROM goods g LEFT JOIN relation_4 r4 ON g.gid = r4.gid LEFT JOIN shopcart st ON st.cid = r4.cid WHERE st.cid = ?";
+		Set<ShopCart> setgoods = new HashSet<>();
+		Set<Goods> setg = new HashSet<>();
+		String sql = "SELECT g.gid, g.gname,g.gprice,r4.gtime , r4.gnumber FROM goods g LEFT JOIN relation_4 r4 ON g.gid = r4.gid LEFT JOIN shopcart st ON st.cid = r4.cid WHERE r4.cid = ?";
 		ps = conn.prepareStatement(sql);
 		ps.setInt(1, cartid);
 		ResultSet rs = ps.executeQuery();
 		while (rs.next()) {
+			int gnumber = rs.getInt("gnumber");
+			Date date = rs.getDate("gtime");
+			String gtime = DateUtil.dateToStr(date, "YYYY-MM-dd");
 			String gname = rs.getString("gname");
 			double gprice = rs.getDouble("gprice");
 			int gid = rs.getInt("gid");
-			int gstock = rs.getInt("gstock");
-			int cid = rs.getInt("classification_cid");
-			Goods g = new Goods(gid, gname, gprice, gstock);
-			g.setSetClassfy(new _Classification(cid));
-			setgoods.add(g);
+			Goods g = new Goods(gid, gname, gprice);
+			setg.add(g);
+			ShopCart sc = new ShopCart(gtime, gnumber);
+			sc.setSetgoods(setg);
+			setgoods.add(sc);
 		}
 		return setgoods;
 	}

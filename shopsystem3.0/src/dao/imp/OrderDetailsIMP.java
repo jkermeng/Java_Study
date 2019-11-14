@@ -8,17 +8,25 @@ import java.util.HashSet;
 import java.util.Set;
 
 import idao.IDao;
+import jdbcutil.MySqlUtil;
 import jdbcutil.MysqlConnet;
 import mtomentity.OrderDetails;
 import onetomanyentity.Goods;
 import onetomanyentity.Orders;
+import util.IPreparedStatement;
 
 public class OrderDetailsIMP implements IDao<OrderDetails> {
-	private Connection conn;
+	private Connection conn = MysqlConnet.Connect();;
 	private PreparedStatement ps;
 
 	public OrderDetailsIMP() {
 		super();
+	}
+
+	public static void main(String[] args) throws SQLException {
+		OrderDetails selectByGid = new OrderDetailsIMP().selectByGid(2);
+		System.out.println(selectByGid);
+		MysqlConnet.allClose();
 	}
 
 	@Override
@@ -85,14 +93,34 @@ public class OrderDetailsIMP implements IDao<OrderDetails> {
 	}
 
 	@Override
-	public void update() {
-		// TODO Auto-generated method stub
+	public void update(OrderDetails ods) throws SQLException {
+		MySqlUtil mySqlUtil = new MySqlUtil(conn);
+		mySqlUtil.UpdateOrInsert(
+				"UPDATE orderdetailed SET detailednumber = ?,detailedtotal = ? WHERE order_oid = ? AND goods_gid = ?",
+				new IPreparedStatement() {
 
+					@Override
+					public void setPreparedStatement(PreparedStatement ps) throws SQLException {
+						ps.setInt(1, ods.getDetailednumber());
+						ps.setDouble(2, ods.getDetailednumber() * ods.getGoodsprice());
+						ps.setInt(3, ods.getOrder_oid().getOid());
+						ps.setInt(4, ods.getGoods_gid().getGid());
+					}
+				});
 	}
 
 	@Override
-	public void delete() {
-		// TODO Auto-generated method stub
+	public void delete(OrderDetails ods) throws SQLException {
+		MySqlUtil mySqlUtil = new MySqlUtil(conn);
+		mySqlUtil.UpdateOrInsert("DELETE FROM orderdetailed WHERE goods_gid = ? AND order_oid = ?",
+				new IPreparedStatement() {
+
+					@Override
+					public void setPreparedStatement(PreparedStatement ps) throws SQLException {
+						ps.setInt(1, ods.getGoods_gid().getGid());
+						ps.setInt(2, ods.getOrder_oid().getOid());
+					}
+				});
 
 	}
 
@@ -100,6 +128,25 @@ public class OrderDetailsIMP implements IDao<OrderDetails> {
 	public void isExist() {
 		// TODO Auto-generated method stub
 
+	}
+
+	@Override
+	public void insert(OrderDetails t) throws SQLException {
+		MySqlUtil mySqlUtil = new MySqlUtil(conn);
+		mySqlUtil.UpdateOrInsert(
+				"INSERT INTO orderdetailed (detailedname,detailednumber,goodsprice,detailedtotal,goods_gid,order_oid) VALUES(?,?,?,?,?,?);",
+				new IPreparedStatement() {
+					@Override
+					public void setPreparedStatement(PreparedStatement ps) throws SQLException {
+						ps.setString(1, t.getDetailedname());
+						ps.setInt(2, t.getDetailednumber());
+						ps.setDouble(3, t.getGoodsprice());
+						ps.setDouble(4, t.getDetailedtotal());
+						ps.setInt(5, t.getGoods_gid().getGid());
+						ps.setInt(6, t.getOrder_oid().getOid());
+					}
+
+				});
 	}
 
 }

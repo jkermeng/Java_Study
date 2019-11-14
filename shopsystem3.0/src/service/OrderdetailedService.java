@@ -55,7 +55,6 @@ public class OrderdetailedService {
 			Orders order_oid = odimp.selectById(orderDetails.getOrder_oid().getOid());
 			orderDetails.setOrder_oid(order_oid);
 			ods.add(orderDetails);
-
 		}
 		return ods;
 	}

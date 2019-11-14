@@ -19,6 +19,22 @@ public class Goods {
 	public Goods() {
 		super();
 	}
+	public Goods(String gname, Double gprice, Integer gstock, _Classification setClassfy) {
+		super();
+		this.gname = gname;
+		this.gprice = gprice;
+		this.gstock = gstock;
+		this.setClassfy = setClassfy;
+	}
+
+	public Goods(Integer gid, String gname, Double gprice, Integer gstock, _Classification setClassfy) {
+		super();
+		this.gid = gid;
+		this.gname = gname;
+		this.gprice = gprice;
+		this.gstock = gstock;
+		this.setClassfy = setClassfy;
+	}
 
 	public Goods(Integer gid, String gname, Double gprice, Integer gstock) {
 		super();
@@ -26,6 +42,13 @@ public class Goods {
 		this.gname = gname;
 		this.gprice = gprice;
 		this.gstock = gstock;
+	}
+
+	public Goods(Integer gid, String gname, Double gprice) {
+		super();
+		this.gid = gid;
+		this.gname = gname;
+		this.gprice = gprice;
 	}
 
 	public Goods(Integer gid) {

@@ -1,9 +1,9 @@
 package util;
 
 import java.sql.PreparedStatement;
+import java.sql.SQLException;
 
 public interface IPreparedStatement {
-	void getPreparedStatement(PreparedStatement ips);
 
-	void setPreparedStatement(PreparedStatement ps);
+	void setPreparedStatement(PreparedStatement ps) throws SQLException;
 }

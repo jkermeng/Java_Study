@@ -9,13 +9,20 @@ public class OrderDetails {
 	private Integer detailednumber;// 购买数量
 	private Double goodsprice;// 商品单价
 	private Double detailedtotal;// 小计
-
 	// 关系
 	private Goods goods_gid;
 	private Orders order_oid;
 
 	public OrderDetails() {
 		super();
+	}
+
+	public OrderDetails(String detailedname, Integer detailednumber, Double goodsprice, Double detailedtotal) {
+		super();
+		this.detailedname = detailedname;
+		this.detailednumber = detailednumber;
+		this.goodsprice = goodsprice;
+		this.detailedtotal = detailedtotal;
 	}
 
 	public OrderDetails(Integer detailedid, String detailedname, Integer detailednumber, Double goodsprice,

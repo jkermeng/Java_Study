@@ -1,6 +1,7 @@
 package service;
 
 import java.sql.SQLException;
+import java.util.Scanner;
 import java.util.Set;
 
 import dao.imp.UsersDaoIMP;
@@ -15,13 +16,21 @@ public class UserService {
 		return udimp.selectAllUsers();
 	}
 
-	public Responese getUserByPhone(Users phone) throws SQLException {
-		Set<Users> selectAllUsers = udimp.selectAllUsers();
+	public Responese getUserByPhone(Scanner sc) throws SQLException {
 		Responese rs = new Responese(Enums.SUCCESS);
+		Set<Users> selectAllUsers = udimp.selectAllUsers();
+		System.out.println("«Î ‰»Î’À∫≈£∫ ");
+		String uName = sc.next();
+		System.out.println("«Î ‰»Î√‹¬Î£∫ ");
+		String uPwd = sc.next();
+
 		for (Users users : selectAllUsers) {
-			if (users.getUphone().equals(phone.getUphone())) {
-				rs.setObj(users);
-				return rs;
+
+			if (users.getUname().equals(uName)) {
+				if (users.getUphone().equals(uPwd)) {
+					rs.setObj(users);
+					return rs;
+				}
 			}
 		}
 		return new Responese(Enums.NULL);

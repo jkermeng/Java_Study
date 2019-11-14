@@ -17,13 +17,13 @@ public class MySqlUtil {
 		this.conn = conn;
 	}
 
-	public static void UpdateOrInsert(String sql, IPreparedStatement ips) throws SQLException {
+	public void UpdateOrInsert(String sql, IPreparedStatement ips) throws SQLException {
 		ps = conn.prepareStatement(sql);
 		ips.setPreparedStatement(ps);
 		ps.execute();
 	}
 
-	public static void QueryWithParam(String sql, IPreparedStatement ips, IResultSet irs) throws SQLException {
+	public void QueryWithParam(String sql, IPreparedStatement ips, IResultSet irs) throws SQLException {
 		ps = conn.prepareStatement(sql);
 		ips.setPreparedStatement(ps);
 		rs = ps.executeQuery();
@@ -31,7 +31,7 @@ public class MySqlUtil {
 
 	}
 
-	public static void QueryWithNoParam(String sql, IResultSet irs) throws SQLException {
+	public void QueryWithNoParam(String sql, IResultSet irs) throws SQLException {
 		ps = conn.prepareStatement(sql);
 		rs = ps.executeQuery();
 		irs.setResultSet(rs);

@@ -9,8 +9,11 @@ import java.util.Set;
 
 import dao.imp.GoodsDaoIMP;
 import dao.imp._ClassificationDaoIMP;
+import enums.Enums;
+import enums.Responese;
 import onetomanyentity.Goods;
 import onetomanyentity._Classification;
+import onetooneentity.Users;
 
 public class GoodService {
 	private GoodsDaoIMP gdimp = new GoodsDaoIMP();
@@ -34,6 +37,13 @@ public class GoodService {
 		return glist;
 	}
 
+	public List<Goods> getGoodsDataById(Goods id) throws SQLException {
+		List<Goods> listg = new ArrayList<>();
+		Goods selectById = gdimp.selectById(id.getGid());
+		listg.add(selectById);
+		return listg;
+	}
+
 	public List<_Classification> getClassificationData() throws SQLException {
 		List<_Classification> cflist = new ArrayList<>();
 		Set<_Classification> selectall = _cfdimp.selectall();
@@ -43,14 +53,43 @@ public class GoodService {
 			cflist.add(cfs);
 		}
 		cflist.sort(new Comparator<_Classification>() {
-
 			@Override
 			public int compare(_Classification o1, _Classification o2) {
-				// TODO Auto-generated method stub
 				return o1.getCid() - o2.getCid();
 			}
 		});
 		return cflist;
+	}
 
+	public Responese addGoods(Goods t, Users u) throws SQLException {
+		if (u.getUname().equals("管理员")) {
+			gdimp.insert(t);
+			return new Responese(Enums.SUCCESS);
+
+		} else {
+			return new Responese(Enums.FAIL);
+		}
+
+	}
+
+	public Responese updateGoods(Goods t, Users u) throws SQLException {
+
+		if (u.getUname().equals("管理员")) {
+			gdimp.update(t);
+			return new Responese(Enums.SUCCESS);
+
+		} else {
+			return new Responese(Enums.FAIL);
+		}
+	}
+
+	public Responese deleteGoods(Goods t, Users u) throws SQLException {
+		if (u.getUname().equals("管理员")) {
+			gdimp.delete(t);
+			return new Responese(Enums.SUCCESS);
+
+		} else {
+			return new Responese(Enums.FAIL);
+		}
 	}
 }

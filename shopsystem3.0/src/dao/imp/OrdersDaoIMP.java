@@ -8,11 +8,13 @@ import java.util.HashSet;
 import java.util.Set;
 
 import idao.IDao;
+import jdbcutil.MySqlUtil;
 import jdbcutil.MysqlConnet;
 import onetomanyentity.Goods;
 import onetomanyentity.Orders;
 import onetomanyentity._Classification;
 import onetooneentity.Users;
+import util.IPreparedStatement;
 
 public class OrdersDaoIMP implements IDao<Orders> {
 	private Connection conn;
@@ -67,19 +69,32 @@ public class OrdersDaoIMP implements IDao<Orders> {
 	}
 
 	@Override
-	public void update() {
-		// TODO Auto-generated method stub
-
-	}
-
-	@Override
-	public void delete() {
-		// TODO Auto-generated method stub
-
-	}
-
-	@Override
 	public void isExist() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void insert(Orders t) throws SQLException {
+
+	}
+
+	@Override
+	public void update(Orders t) throws SQLException {
+		MySqlUtil mySqlUtil = new MySqlUtil(conn);
+		mySqlUtil.UpdateOrInsert("UPDATE orders SET ostatus = ? WHERE user_uid = ?", new IPreparedStatement() {
+			@Override
+			public void setPreparedStatement(PreparedStatement ps) throws SQLException {
+				ps.setString(1, t.getOstatus());
+				ps.setInt(2, t.getUse().getUid());
+
+			}
+		});
+
+	}
+
+	@Override
+	public void delete(Orders t) throws SQLException {
 		// TODO Auto-generated method stub
 
 	}

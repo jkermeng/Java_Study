@@ -3,15 +3,19 @@ package idao;
 import java.sql.SQLException;
 import java.util.Set;
 
+import mtomentity.OrderDetails;
+
 public interface IDao<T> {
 	public Set<T> select(T t) throws SQLException;
 
 	public T selectById(int id) throws SQLException;
 
-	public void update();
+	public void insert(T t) throws SQLException;;
 
-	public void delete();
+	public void delete(T t) throws SQLException;
 
 	public void isExist();
+
+	void update(T t) throws SQLException;
 
 }

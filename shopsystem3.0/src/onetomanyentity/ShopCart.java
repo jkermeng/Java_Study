@@ -6,9 +6,42 @@ import onetooneentity.Users;
 
 public class ShopCart {
 	private Integer cid;// 购物车id
+	private String gtime;// 时间
+	private Integer gnumber;// 数量
+	private Goods g;
 	// 关系
 	private Users use;
 	private Set<Goods> setgoods;
+
+	public ShopCart(String gtime, Integer gnumber) {
+		super();
+		this.gtime = gtime;
+		this.gnumber = gnumber;
+	}
+
+	public Goods getG() {
+		return g;
+	}
+
+	public void setG(Goods g) {
+		this.g = g;
+	}
+
+	public String getGtime() {
+		return gtime;
+	}
+
+	public Integer getGnumber() {
+		return gnumber;
+	}
+
+	public void setGtime(String gtime) {
+		this.gtime = gtime;
+	}
+
+	public void setGnumber(Integer gnumber) {
+		this.gnumber = gnumber;
+	}
 
 	public ShopCart() {
 		super();
@@ -17,6 +50,13 @@ public class ShopCart {
 	public ShopCart(Integer cid) {
 		super();
 		this.cid = cid;
+	}
+
+	public ShopCart(Integer cid, String gtime, Integer gnumber) {
+		super();
+		this.cid = cid;
+		this.gtime = gtime;
+		this.gnumber = gnumber;
 	}
 
 	public Integer getCid() {
@@ -45,7 +85,8 @@ public class ShopCart {
 
 	@Override
 	public String toString() {
-		return "ShopCart [cid=" + cid + ", use=" + use + ", setgoods=" + setgoods + "]";
+		return "ShopCart [cid=" + cid + ", gtime=" + gtime + ", gnumber=" + gnumber + ", g=" + g + "]";
 	}
 
+	
 }
