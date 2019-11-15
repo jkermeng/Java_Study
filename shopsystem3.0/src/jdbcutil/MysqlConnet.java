@@ -9,6 +9,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.Properties;
 
+import util.DESUtile;
 import util.IPreparedStatement;
 import util.IResultSet;
 
@@ -29,10 +30,10 @@ public class MysqlConnet {
 			is = MysqlConnet.class.getResourceAsStream("jdbc.properties");
 			pts = new Properties();
 			pts.load(is);
-			driver = pts.getProperty("jdbc.driver");
-			url = pts.getProperty("jdbc.url");
-			username = pts.getProperty("jdbc.name");
-			password = pts.getProperty("jdbc.password");
+			driver = DESUtile.getDecryptString(pts.getProperty("jdbc.driver"));
+			url = DESUtile.getDecryptString(pts.getProperty("jdbc.url"));
+			username = DESUtile.getDecryptString(pts.getProperty("jdbc.name"));
+			password = DESUtile.getDecryptString(pts.getProperty("jdbc.password"));
 			Class.forName(driver);
 			System.out.println("Êý¾Ý¿âÆô¶¯!");
 			conn = DriverManager.getConnection(url, username, password);
