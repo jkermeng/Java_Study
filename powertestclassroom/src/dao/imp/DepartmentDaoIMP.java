@@ -9,6 +9,7 @@ import java.util.Set;
 
 import entity.Department;
 import entity.Employee;
+import entity.GetPower;
 import idao.IDao;
 import jdbcUtil.IPreparedStatement;
 import jdbcUtil.IResultSet;
@@ -135,6 +136,55 @@ public class DepartmentDaoIMP implements IDao<Department> {
 	public void Update(Department t, int pid, int fkid) {
 		// TODO Auto-generated method stub
 
+	}
+
+	public Department SeleteById(int id) {
+		mysqlutil = new MySqlUtil(conn);
+		Department d = new Department();
+		try {
+			mysqlutil.QueryWithParam("select * from department where did = ?", new IPreparedStatement() {
+
+				@Override
+				public void setPreparedStatement(PreparedStatement ps) throws SQLException {
+					ps.setInt(1, id);
+				}
+			}, new IResultSet() {
+
+				@Override
+				public void setIResultSet(ResultSet rs) throws SQLException {
+					while (rs.next()) {
+						int did = rs.getInt("did");
+						String dname = rs.getString("dname");
+						int dnumber = rs.getInt("dnumber");
+						String dcreatdatetime = rs.getString("dcreatdatetime");
+						String dbrief = rs.getString("dbrief");
+						String dremarks = rs.getString("dremarks");
+						d.setDid(did);
+						d.setDname(dname);
+						d.setDnumber(dnumber);
+						d.setDcreatdatetime(dcreatdatetime);
+						d.setDbrief(dbrief);
+						d.setDremarks(dremarks);
+
+					}
+				}
+			});
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		return d;
+	}
+
+	@Override
+	public Set<GetPower> SeleteByUserenumber(Employee e) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Department login(String number, String pwd) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }

@@ -4,14 +4,32 @@ public class Role {
 	private Integer rid;// 角色id
 	private String rname;// 角色名称
 	private String rexplain;// 角色说明
-
 	private Job jid;// 职位id
+	private FirstPower fp;
 
-	public Role(Integer rid, String rname, String rexplain) {
+	public Role(Integer rid, String rname, String rexplain, Job jid, FirstPower fp) {
 		super();
 		this.rid = rid;
 		this.rname = rname;
 		this.rexplain = rexplain;
+		this.jid = jid;
+		this.fp = fp;
+	}
+
+	public Role(Integer rid, String rname, String rexplain, Job jid) {
+		super();
+		this.rid = rid;
+		this.rname = rname;
+		this.rexplain = rexplain;
+		this.jid = jid;
+	}
+
+	public FirstPower getFp() {
+		return fp;
+	}
+
+	public void setFp(FirstPower fp) {
+		this.fp = fp;
 	}
 
 	public Integer getRid() {
@@ -52,7 +70,8 @@ public class Role {
 
 	@Override
 	public String toString() {
-		return "Role [rid=" + rid + ", rname=" + rname + ", rexplain=" + rexplain + ", jid=" + jid + "]";
+		return "Role [rid=" + rid + ", rname=" + rname + ", rexplain=" + rexplain + ", jid=" + jid + ", fp=" + fp + "]";
 	}
+
 
 }

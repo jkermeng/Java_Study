@@ -16,6 +16,11 @@ public class Job {
 		this.jexplain = jexplain;
 	}
 
+	public Job(Integer jid) {
+		super();
+		this.jid = jid;
+	}
+
 	public Job() {
 		super();
 	}
@@ -65,5 +70,5 @@ public class Job {
 		return "Job [jid=" + jid + ", jname=" + jname + ", jnumber=" + jnumber + ", jexplain=" + jexplain + ", did="
 				+ did + "]";
 	}
-	
+
 }
