@@ -18,6 +18,26 @@ public class GetPower {
 		this.functionurl = functionurl;
 	}
 
+	public Integer getFpid() {
+		return fpid;
+	}
+
+	public String getFpname() {
+		return fpname;
+	}
+
+	public void setFpid(Integer fpid) {
+		this.fpid = fpid;
+	}
+
+	public void setFpname(String fpname) {
+		this.fpname = fpname;
+	}
+
+	public GetPower() {
+		super();
+	}
+
 	public Integer getEid() {
 		return eid;
 	}

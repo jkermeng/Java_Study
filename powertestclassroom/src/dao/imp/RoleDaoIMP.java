@@ -287,4 +287,60 @@ public class RoleDaoIMP implements IDao<Role> {
 		return sr;
 
 	}
+
+	public void insertPower(FirstPower f, int rid) {
+		mySqlUtil = new MySqlUtil(conn);
+		try {
+			mySqlUtil.UpdateOrInsert("INSERT INTO owner VALUES(?,?,?);", new IPreparedStatement() {
+
+				@Override
+				public void setPreparedStatement(PreparedStatement ps) throws SQLException {
+					ps.setString(1, f.getFpname());
+					ps.setInt(2, rid);
+					ps.setInt(3, f.getFpid());
+
+				}
+			});
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+	}
+
+	public void deletePower(int fpid, int rid) {
+		mySqlUtil = new MySqlUtil(conn);
+		try {
+			mySqlUtil.UpdateOrInsert("DELETE FROM OWNER WHERE role_rid = ? AND firstpower_fpid = ?",
+					new IPreparedStatement() {
+
+						@Override
+						public void setPreparedStatement(PreparedStatement ps) throws SQLException {
+							ps.setInt(1, fpid);
+							ps.setInt(2, rid);
+
+						}
+					});
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+	}
+
+	public void changePower(int fpid, int rid) {
+		mySqlUtil = new MySqlUtil(conn);
+		try {
+			mySqlUtil.UpdateOrInsert("UPDATE owner SET firstpower_fpid = ? WHERE role_rid = ?",
+					new IPreparedStatement() {
+
+						@Override
+						public void setPreparedStatement(PreparedStatement ps) throws SQLException {
+							ps.setInt(1, fpid);
+							ps.setInt(2, rid);
+						}
+					});
+		} catch (SQLException e) {
+			e.printStackTrace();
+		} finally {
+			MySqlConnection.closePart();
+		}
+
+	}
 }

@@ -6,6 +6,7 @@ import java.util.Set;
 
 import dao.imp.DepartmentDaoIMP;
 import dao.imp.EmployeeDaoIMP;
+import entity.Department;
 import entity.Employee;
 import enums.Enums;
 import enums.Responese;
@@ -72,7 +73,10 @@ public class EmployeeServiceImp implements IService<Employee> {
 	@Override
 	public Set<Employee> SeleteByFK(int pid) {
 		Set<Employee> se = new HashSet<>();
-		se.add(edimp.SeleteById(pid));
+		Employee seleteById = edimp.SeleteById(pid);
+		Department seleteById2 = daoIMP.SeleteById(seleteById.getDid().getDid());
+		seleteById.setDid(seleteById2);
+		se.add(seleteById);
 		return se;
 	}
 

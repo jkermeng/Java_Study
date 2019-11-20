@@ -8,6 +8,7 @@ import dao.imp.JobDaoIMP;
 import dao.imp.RoleDaoIMP;
 import entity.Department;
 import entity.Employee;
+import entity.FirstPower;
 import entity.GetPower;
 import entity.Job;
 import entity.Role;
@@ -104,6 +105,32 @@ public class RoleServiceImp implements IService<Role> {
 	@Override
 	public boolean Login(String num, String pwd) {
 		return false;
+	}
+
+	public Responese showAllUserPower() {
+		Responese responese = new Responese(Enums.SUCCESS);
+		Set<Role> selectPower = rdimp.SelectPower();
+		responese.setObj(selectPower);
+		return responese;
+	}
+
+	public Responese changePower(int fpid, int rid) {
+		Responese responese = new Responese(Enums.SUCCESS);
+		rdimp.changePower(fpid, rid);
+		return responese;
+	}
+
+	public Responese insertPower(FirstPower f, int rid) {
+		Responese responese = new Responese(Enums.SUCCESS);
+		rdimp.insertPower(f, rid);
+		return responese;
+	}
+
+	public Responese deletePower(int fpid, int rid) {
+		Responese responese = new Responese(Enums.SUCCESS);
+		rdimp.deletePower(fpid, rid);
+		return responese;
+
 	}
 
 	public static void main(String[] args) {

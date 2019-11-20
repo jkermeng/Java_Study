@@ -13,6 +13,12 @@ public class FirstPower {
 		this.sp = sp;
 	}
 
+	public FirstPower(Integer fpid, String fpname) {
+		super();
+		this.fpid = fpid;
+		this.fpname = fpname;
+	}
+
 	public SecondPower getSp() {
 		return sp;
 	}
