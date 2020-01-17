@@ -1,7 +1,10 @@
 package view;
 
+import java.util.Comparator;
+import java.util.Iterator;
 import java.util.Scanner;
 import java.util.Set;
+import java.util.TreeSet;
 
 import entity.Department;
 import entity.Employee;
@@ -106,7 +109,7 @@ public class Test {
 										ct = sc.next();
 									} while (ct.equals("y"));
 								} else {
-									System.err.println("\n\n\n您无权管理！！！！！\n\n\n\n");
+									System.err.println("\n您无权管理！！！！！\n");
 								}
 							} else if (choice == 3) {
 								if (pass) {
@@ -124,7 +127,7 @@ public class Test {
 										ct = sc.next();
 									} while (ct.equals("y"));
 								} else {
-									System.err.println("\n\n\n您无权管理！！！！！\n\n\n\n");
+									System.err.println("\n您无权管理！！！！！\n");
 								}
 
 							} else if (choice == 4) {
@@ -164,7 +167,7 @@ public class Test {
 										ct = sc.next();
 									} while (ct.equals("y"));
 								} else {
-									System.err.println("\n\n\n您无权管理！！！！！\n\n\n\n");
+									System.err.println("\n您无权管理！！！！！\n");
 								}
 
 							} else if (choice == 5) {
@@ -188,7 +191,7 @@ public class Test {
 										ct = sc.next();
 									} while (ct.equals("y"));
 								} else {
-									System.err.println("\n\n\n您无权管理！！！！！\n\n\n\n");
+									System.err.println("\n您无权管理！！！！！\n");
 								}
 
 							} else if (choice == 2) {
@@ -216,7 +219,7 @@ public class Test {
 										ct = sc.next();
 									} while (ct.equals("y"));
 								} else {
-									System.err.println("\n\n\n您无权管理！！！！！\n\n\n\n");
+									System.err.println("\n您无权管理！！！！！\n");
 								}
 
 							} else if (choice == 3) {
@@ -234,7 +237,7 @@ public class Test {
 										ct = sc.next();
 									} while (ct.equals("y"));
 								} else {
-									System.err.println("\n\n\n您无权管理！！！！！\n\n\n\n");
+									System.err.println("\n您无权管理！！！！！\n");
 								}
 
 							} else if (choice == 4) {
@@ -259,7 +262,7 @@ public class Test {
 										ct = sc.next();
 									} while (ct.equals("y"));
 								} else {
-									System.err.println("\n\n\n您无权管理！！！！！\n\n\n\n");
+									System.err.println("\n您无权管理！！！！！\n");
 								}
 
 							} else if (choice == 5) {
@@ -282,7 +285,7 @@ public class Test {
 										ct = sc.next();
 									} while (ct.equals("y"));
 								} else {
-									System.err.println("\n\n\n您无权管理！！！！！\n\n\n\n");
+									System.err.println("\n您无权管理！！！！！\n");
 								}
 
 							} else if (choice == 2) {
@@ -310,7 +313,7 @@ public class Test {
 										ct = sc.next();
 									} while (ct.equals("y"));
 								} else {
-									System.err.println("\n\n\n您无权管理！！！！！\n\n\n\n");
+									System.err.println("\n您无权管理！！！！！\n");
 								}
 
 							} else if (choice == 3) {
@@ -324,7 +327,7 @@ public class Test {
 										ct = sc.next();
 									} while (ct.equals("y"));
 								} else {
-									System.err.println("\n\n\n您无权管理！！！！！\n\n\n\n");
+									System.err.println("\n您无权管理！！！！！\n");
 								}
 
 							} else if (choice == 4) {
@@ -349,7 +352,7 @@ public class Test {
 										ct = sc.next();
 									} while (ct.equals("y"));
 								} else {
-									System.err.println("\n\n\n您无权管理！！！！！\n\n\n\n");
+									System.err.println("\n您无权管理！！！！！\n");
 								}
 
 							} else if (choice == 5) {
@@ -372,7 +375,7 @@ public class Test {
 										ct = sc.next();
 									} while (ct.equals("y"));
 								} else {
-									System.err.println("\n\n\n您无权管理！！！！！\n\n\n\n");
+									System.err.println("\n您无权管理！！！！！\n");
 								}
 
 							} else if (choice == 2) {
@@ -396,7 +399,7 @@ public class Test {
 										ct = sc.next();
 									} while (ct.equals("y"));
 								} else {
-									System.err.println("\n\n\n您无权管理！！！！！\n\n\n\n");
+									System.err.println("\n您无权管理！！！！！\n");
 								}
 
 							} else if (choice == 3) {
@@ -415,7 +418,7 @@ public class Test {
 										ct = sc.next();
 									} while (ct.equals("y"));
 								} else {
-									System.err.println("\n\n\n您无权管理！！！！！\n\n\n\n");
+									System.err.println("\n您无权管理！！！！！\n");
 								}
 
 							} else if (choice == 4) {
@@ -440,7 +443,7 @@ public class Test {
 										ct = sc.next();
 									} while (ct.equals("y"));
 								} else {
-									System.err.println("\n\n\n您无权管理！！！！！\n\n\n\n");
+									System.err.println("\n您无权管理！！！！！\n");
 								}
 
 							} else if (choice == 5) {
@@ -464,7 +467,7 @@ public class Test {
 										ct = sc.next();
 									} while (ct.equals("y"));
 								} else {
-									System.err.println("\n\n\n您无权管理！！！！！\n\n\n\n");
+									System.err.println("\n您无权管理！！！！！\n");
 								}
 
 							} else if (choice == 2) {
@@ -482,7 +485,7 @@ public class Test {
 										ct = sc.next();
 									} while (ct.equals("y"));
 								} else {
-									System.err.println("\n\n\n您无权管理！！！！！\n\n\n\n");
+									System.err.println("\n您无权管理！！！！！\n");
 								}
 
 							} else if (choice == 3) {
@@ -498,7 +501,7 @@ public class Test {
 										ct = sc.next();
 									} while (ct.equals("y"));
 								} else {
-									System.err.println("\n\n\n您无权管理！！！！！\n\n\n\n");
+									System.err.println("\n您无权管理！！！！！\n");
 								}
 
 							} else if (choice == 4) {
@@ -517,7 +520,7 @@ public class Test {
 										ct = sc.next();
 									} while (ct.equals("y"));
 								} else {
-									System.err.println("\n\n\n您无权管理！！！！！\n\n\n\n");
+									System.err.println("\n您无权管理！！！！！\n");
 								}
 
 							} else if (choice == 5) {
@@ -532,8 +535,7 @@ public class Test {
 
 			} else {
 				l--;
-				System.out.println("账号密码错误剩余" + (l) + "次机会");
-
+				System.out.println("账号密码错误剩余(" + l + ")次机会");
 				if (l == 0) {
 					break;
 				}
@@ -552,9 +554,11 @@ public class Test {
 
 	private static void showUserPower(Responese rs) {
 		Set<Role> obj = (Set<Role>) rs.getObj();
+
 		for (Role role : obj) {
 			System.out.println(role);
 		}
+
 	}
 
 	private static void showDepartment(Set<Department> se) {

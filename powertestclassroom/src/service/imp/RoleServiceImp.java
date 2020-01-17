@@ -110,7 +110,15 @@ public class RoleServiceImp implements IService<Role> {
 	public Responese showAllUserPower() {
 		Responese responese = new Responese(Enums.SUCCESS);
 		Set<Role> selectPower = rdimp.SelectPower();
-		responese.setObj(selectPower);
+		for (Role role2 : selectPower) {
+			Integer jid = role2.getJid().getJid();
+			Job seleteById = jdimp.SeleteById(jid);
+			Department seleteById2 = ddimp.SeleteById(seleteById.getDid().getDid());
+			seleteById.setDid(seleteById2);
+			role2.setJid(seleteById);
+			responese.setObj(selectPower);
+		}
+
 		return responese;
 	}
 

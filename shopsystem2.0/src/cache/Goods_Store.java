@@ -14,7 +14,10 @@ public static List<Goods> GoodsBox = new ArrayList<>();
 public static List<ShoppingCart> CartBox = new ArrayList<>();
 //用户
 public static List<User> UserBox = new ArrayList<>();
-
+//方法测试
+public static List<?> GBox = new ArrayList<>();
+public static List<?> SBox = new ArrayList<>();
+public static List<?> UBox = new ArrayList<>();
 private Goods_Store() {
 	// TODO Auto-generated constructor stub
 }

@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fe978b00-12e5-4e95-99d6-fb11139020be" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.metadata/.log" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.mylyn/.taskListIndex/segments_1" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.mylyn/.taskListIndex/segments_1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.mylyn/.tasks.xml.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.mylyn/.tasks.xml.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.mylyn/tasks.xml.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.mylyn/tasks.xml.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/JET2Project/.indexes/7/2a/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/JET2Project/.indexes/7/6f/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/JET2Project/.indexes/7/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/JET2Project/.indexes/a5/2a/history.index" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/JET2Project/.indexes/a5/2a/history.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/JET2Project/.indexes/a5/6f/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/JET2Project/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/JET2Project/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/JET2Project/org.eclipse.egit.core/GitProjectData.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/JET2Project/org.eclipse.egit.core/GitProjectData.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/JET2Project/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/JET2Project/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.syncinfo.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/SDXLMySql/.indexes/e4/7d/62/history.index" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/SDXLMySql/.indexes/e4/7d/62/history.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/SDXLMySql/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/SDXLMySql/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/SDXLMySql/org.eclipse.egit.core/GitProjectData.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/SDXLMySql/org.eclipse.egit.core/GitProjectData.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/SDXLMySql/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/SDXLMySql/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/dayaseven/.indexes/af/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/dayaseven/.indexes/e4/18/4/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/dayaseven/.indexes/e4/18/4d/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/dayaseven/.indexes/e4/18/55/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/dayaseven/.indexes/e4/18/76/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/dayaseven/.indexes/e4/18/d6/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/dayaseven/.indexes/e4/f1/55/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/dayaseven/.indexes/e4/f1/eb/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/dayaseven/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/dayaseven/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/dayaseven/org.eclipse.egit.core/GitProjectData.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/dayaseven/org.eclipse.egit.core/GitProjectData.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/dayaseven/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/dayaseven/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/dayeight/.indexes/af/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/dayeight/.indexes/e4/6d/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/dayeight/.indexes/e4/73/f5/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/dayeight/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/dayeight/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/dayeight/org.eclipse.egit.core/GitProjectData.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/dayeight/org.eclipse.egit.core/GitProjectData.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/dayeight/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/dayeight/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/dayfive/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/dayfive/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/dayfive/org.eclipse.egit.core/GitProjectData.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/dayfive/org.eclipse.egit.core/GitProjectData.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/dayfive/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/dayfive/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/dayfour/.location" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/dayfour/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/dayfour/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/dayfour/org.eclipse.egit.core/GitProjectData.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/dayfour/org.eclipse.egit.core/GitProjectData.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/dayfour/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/dayfour/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/daynight/.indexes/e4/6d/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/daynight/.location" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/daynight/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/daynight/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/daynight/org.eclipse.egit.core/GitProjectData.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/daynight/org.eclipse.egit.core/GitProjectData.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/daynight/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/daynight/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/dayone/.markers.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/dayone/.syncinfo.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/dayone/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/dayone/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/daysix/.indexes/e4/3a/29/92/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/daysix/.indexes/e4/3a/29/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/daysix/.indexes/e4/92/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/daysix/.indexes/e4/a2/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/daysix/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/daysix/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/daysix/org.eclipse.egit.core/GitProjectData.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/daysix/org.eclipse.egit.core/GitProjectData.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/daysix/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/daysix/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/daythree/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/daythree/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/daythree/.markers.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/daythree/.syncinfo.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/daythree/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/daythree/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/daytwo/.markers.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/daytwo/.syncinfo.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/daytwo/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/daytwo/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/mysql-connector-java-5.1.39-bin/.indexes/properties.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/mysql-connector-java-5.1.39-bin/.location" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/mysql-connector-java-5.1.39-bin/.markers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/mysql-connector-java-5.1.39-bin/org.eclipse.egit.core/GitProjectData.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/mysql-connector-java-5.1.39-bin/org.eclipse.jdt.core/state.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.root/14.tree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.jet.13" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/0.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/net.sf.jadclipse.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/net.sf.jadclipse.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.egit.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.egit.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.debug.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.debug.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.launching.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.launching.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.tasks.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.tasks.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.rse.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.rse.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.jsdt.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.jsdt.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.sse.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.sse.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/Potion.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/Potion.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/View.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/View.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/test (1).launch" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/test (1).launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/test (2).launch" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/test (2).launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/test (3).launch" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/test (3).launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/test.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/test.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.ui/dialog_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.ui/dialog_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1686393872.index" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1686393872.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2176390382.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2265635406.index" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2265635406.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2615422491.index" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2615422491.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3063083886.index" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3063083886.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3074583883.index" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3074583883.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3432908408.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3757487177.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3830407155.index" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3830407155.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/4040878943.index" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/4040878943.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/852368512.index" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/852368512.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.debug.ui/dialog_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.debug.ui/dialog_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.launching/.install.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.launching/.install.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.ui/jdt-images/0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.ui/jdt-images/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.ui/jdt-images/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.ui/jdt-images/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.ui/jdt-images/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jet/save-13/JET2Project/compilerState.tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ltk.ui.refactoring/dialog_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ltk.ui.refactoring/dialog_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.pde.core/.extensions/.manager/.fileTable.7" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.pde.core/.extensions/.manager/.fileTable.7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.pde.core/.extensions/.manager/.fileTable.8" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.pde.core/.extensions/.manager/.fileTable.8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.pde.core/.extensions/.table.1" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.pde.core/.extensions/.table.1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.pde.core/SavedExternalPluginList.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.pde.core/SavedExternalPluginList.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.recommenders.types.rcp/indexes/SDXLMySql/_k.fdt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.recommenders.types.rcp/indexes/SDXLMySql/_k.fdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.recommenders.types.rcp/indexes/SDXLMySql/_k.fnm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.recommenders.types.rcp/indexes/SDXLMySql/_k.frq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.recommenders.types.rcp/indexes/SDXLMySql/_k.nrm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.recommenders.types.rcp/indexes/SDXLMySql/_k.prx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.recommenders.types.rcp/indexes/SDXLMySql/_k.tii" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.recommenders.types.rcp/indexes/SDXLMySql/_k.tis" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.recommenders.types.rcp/indexes/SDXLMySql/segments.gen" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.recommenders.types.rcp/indexes/SDXLMySql/segments.gen" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.recommenders.types.rcp/indexes/SDXLMySql/segments_l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ui.ide/dialog_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ui.ide/dialog_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ui.workbench.texteditor/dialog_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ui.workbench.texteditor/dialog_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.jsdt.core/externalLibsTimeStamps" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.jsdt.core/externalLibsTimeStamps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/version.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/version.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.recommenders/caches/identified-project-coordinates.json" beforeDir="false" afterPath="$PROJECT_DIR$/../.recommenders/caches/identified-project-coordinates.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JET2Project/.settings/org.eclipse.jet.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../JET2Project/.settings/org.eclipse.jet.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JET2Project/bin/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SDXLMySql/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/../SDXLMySql/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SDXLMySql/src/SDXLMySql/MySql/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SDXLMySql/src/SDXLMySql/MySql/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SDXLMySql/src/SDXLMySql/MySql/MySql.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SDXLMySql/src/SDXLMySql/MySql/MySql.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SDXLMySql/src/SDXLMySql/MySql/MySqlConnet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SDXLMySql/src/SDXLMySql/MySql/MySqlConnet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dayone/dogclass/dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dayone/dogclass/dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dayone/helloworld_first/helloworld_first.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dayone/helloworld_first/helloworld_first.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../daytwo/bin/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../daytwo/src/daytwo/crate_test/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../daytwo/src/daytwo/crate_test/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/.settings/org.eclipse.wst.common.component" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/.settings/org.eclipse.wst.common.project.facet.core.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/fabric/FabricCommunicationException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/fabric/FabricConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/fabric/FabricStateResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/fabric/HashShardMapping$ReverseShardIndexSorter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/fabric/HashShardMapping.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/fabric/RangeShardMapping$RangeShardIndexSorter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/fabric/RangeShardMapping.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/fabric/Response.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/fabric/Server.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/fabric/ServerGroup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/fabric/ServerMode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/fabric/ServerRole.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/fabric/ShardIndex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/fabric/ShardMapping.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/fabric/ShardMappingFactory$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/fabric/ShardMappingFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/fabric/ShardTable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/fabric/ShardingType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/fabric/hibernate/FabricMultiTenantConnectionProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/fabric/jdbc/ErrorReportingExceptionInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/fabric/jdbc/FabricMySQLConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/fabric/jdbc/FabricMySQLConnectionProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/fabric/jdbc/FabricMySQLConnectionProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/fabric/jdbc/FabricMySQLDataSource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/fabric/jdbc/FabricMySQLDriver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/fabric/jdbc/JDBC4FabricMySQLConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/fabric/jdbc/JDBC4FabricMySQLConnectionProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/fabric/proto/xmlrpc/AuthenticatedXmlRpcMethodCaller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/fabric/proto/xmlrpc/DigestAuthentication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/fabric/proto/xmlrpc/InternalXmlRpcMethodCaller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/fabric/proto/xmlrpc/ResultSetParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/fabric/proto/xmlrpc/XmlRpcClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/fabric/proto/xmlrpc/XmlRpcMethodCaller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/fabric/xmlrpc/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/fabric/xmlrpc/base/Array.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/fabric/xmlrpc/base/Data.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/fabric/xmlrpc/base/Fault.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/fabric/xmlrpc/base/Member.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/fabric/xmlrpc/base/MethodCall.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/fabric/xmlrpc/base/MethodResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/fabric/xmlrpc/base/Param.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/fabric/xmlrpc/base/Params.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/fabric/xmlrpc/base/ResponseParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/fabric/xmlrpc/base/Struct.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/fabric/xmlrpc/base/Value.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/fabric/xmlrpc/exceptions/MySQLFabricException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/AbandonedConnectionCleanupThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/AssertionFailedException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/AuthenticationPlugin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/BalanceStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/BestResponseTimeBalanceStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/Blob.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/BlobFromLocator$LocatorInputStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/BlobFromLocator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/Buffer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/BufferRow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/ByteArrayRow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/CacheAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/CacheAdapterFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/CachedResultSetMetaData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/CallableStatement$CallableStatementParam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/CallableStatement$CallableStatementParamInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/CallableStatement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/CharsetMapping.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/Clob.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/Collation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/CommunicationsException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/CompressedInputStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/Connection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/ConnectionFeatureNotAvailableException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/ConnectionGroup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/ConnectionGroupManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/ConnectionImpl$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/ConnectionImpl$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/ConnectionImpl$11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/ConnectionImpl$12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/ConnectionImpl$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/ConnectionImpl$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/ConnectionImpl$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/ConnectionImpl$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/ConnectionImpl$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/ConnectionImpl$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/ConnectionImpl$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/ConnectionImpl$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/ConnectionImpl$CompoundCacheKey.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/ConnectionImpl$ExceptionInterceptorChain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/ConnectionImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/ConnectionLifecycleInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/ConnectionProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/ConnectionPropertiesImpl$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/ConnectionPropertiesImpl$BooleanConnectionProperty.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/ConnectionPropertiesImpl$ConnectionProperty.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/ConnectionPropertiesImpl$IntegerConnectionProperty.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/ConnectionPropertiesImpl$LongConnectionProperty.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/ConnectionPropertiesImpl$MemorySizeConnectionProperty.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/ConnectionPropertiesImpl$StringConnectionProperty.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/ConnectionPropertiesImpl$XmlMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/ConnectionPropertiesImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/ConnectionPropertiesTransform.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/Constants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/DatabaseMetaData$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/DatabaseMetaData$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/DatabaseMetaData$11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/DatabaseMetaData$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/DatabaseMetaData$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/DatabaseMetaData$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/DatabaseMetaData$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/DatabaseMetaData$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/DatabaseMetaData$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/DatabaseMetaData$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/DatabaseMetaData$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/DatabaseMetaData$ComparableWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/DatabaseMetaData$IndexMetaDataKey.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/DatabaseMetaData$IteratorWithCleanup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/DatabaseMetaData$LocalAndReferencedColumns.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/DatabaseMetaData$ProcedureType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/DatabaseMetaData$ResultSetIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/DatabaseMetaData$SingleStringIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/DatabaseMetaData$TableMetaDataKey.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/DatabaseMetaData$TableType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/DatabaseMetaData$TypeDescriptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/DatabaseMetaData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/DatabaseMetaDataUsingInfoSchema$JDBC4FunctionConstant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/DatabaseMetaDataUsingInfoSchema.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/DocsConnectionPropsHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/Driver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/EscapeProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/EscapeProcessorResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/EscapeTokenizer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/ExceptionInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/ExportControlled$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/ExportControlled$StandardSSLSocketFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/ExportControlled.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/Extension.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/FailoverConnectionProxy$FailoverJdbcInterfaceProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/FailoverConnectionProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/Field.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/IterateBlock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/JDBC42CallableStatement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/JDBC42Helper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/JDBC42PreparedStatement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/JDBC42ResultSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/JDBC42ServerPreparedStatement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/JDBC42UpdatableResultSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/JDBC4CallableStatement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/JDBC4ClientInfoProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/JDBC4ClientInfoProviderSP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/JDBC4CommentClientInfoProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/JDBC4Connection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/JDBC4DatabaseMetaData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/JDBC4DatabaseMetaDataUsingInfoSchema$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/JDBC4DatabaseMetaDataUsingInfoSchema.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/JDBC4LoadBalancedMySQLConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/JDBC4MultiHostMySQLConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/JDBC4MySQLConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/JDBC4MysqlSQLXML$SimpleSaxToReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/JDBC4MysqlSQLXML.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/JDBC4NClob.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/JDBC4PreparedStatement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/JDBC4PreparedStatementHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/JDBC4ReplicationMySQLConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/JDBC4ResultSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/JDBC4ServerPreparedStatement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/JDBC4UpdatableResultSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/LicenseConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/LoadBalanceExceptionChecker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/LoadBalancedAutoCommitInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/LoadBalancedConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/LoadBalancedConnectionProxy$NullLoadBalancedConnectionProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/LoadBalancedConnectionProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/LoadBalancedMySQLConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/Messages.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/MiniAdmin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/MultiHostConnectionProxy$JdbcInterfaceProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/MultiHostConnectionProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/MultiHostMySQLConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/MySQLConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/MysqlCharset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/MysqlDataTruncation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/MysqlDefs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/MysqlErrorNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/MysqlIO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/MysqlParameterMetadata.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/MysqlSavepoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/NamedPipeSocketFactory$NamedPipeSocket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/NamedPipeSocketFactory$RandomAccessFileInputStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/NamedPipeSocketFactory$RandomAccessFileOutputStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/NamedPipeSocketFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/NdbLoadBalanceExceptionChecker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/NetworkResources.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/NoSubInterceptorWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/NonRegisteringDriver$ConnectionPhantomReference.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/NonRegisteringDriver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/NonRegisteringReplicationDriver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/NotImplemented.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/NotUpdatable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/OperationNotSupportedException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/OutputStreamWatcher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/PacketTooBigException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/ParameterBindings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/PerConnectionLRUFactory$PerConnectionLRU.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/PerConnectionLRUFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/PerVmServerConfigCacheFactory$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/PerVmServerConfigCacheFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/PingTarget.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/PreparedStatement$AppendingBatchVisitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/PreparedStatement$BatchParams.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/PreparedStatement$BatchVisitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/PreparedStatement$EmulatedPreparedStatementBindings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/PreparedStatement$EndPoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/PreparedStatement$ParseInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/PreparedStatement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/ProfilerEventHandlerFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/RandomBalanceStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/ReflectiveStatementInterceptorAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/ReplicationConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/ReplicationConnectionGroup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/ReplicationConnectionGroupManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/ReplicationConnectionProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/ReplicationDriver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/ReplicationMySQLConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/ResultSetImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/ResultSetInternalMethods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/ResultSetMetaData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/ResultSetRow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/RowData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/RowDataCursor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/RowDataDynamic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/RowDataStatic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/SQLError.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/Security.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/SequentialBalanceStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/ServerPreparedStatement$BatchedBindValues.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/ServerPreparedStatement$BindValue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/ServerPreparedStatement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/SingleByteCharsetConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/SocketFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/SocketMetadata$Helper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/SocketMetadata.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/SocksProxySocketFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/StandardLoadBalanceExceptionChecker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/StandardSocketFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/Statement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/StatementImpl$CancelTask$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/StatementImpl$CancelTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/StatementImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/StatementInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/StatementInterceptorV2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/StreamingNotifiable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/StringUtils$SearchMode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/StringUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/TimeUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/UpdatableResultSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/Util$RandStructcture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/Util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/V1toV2StatementInterceptorAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/WatchableOutputStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/WatchableWriter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/Wrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/WriterWatcher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/authentication/MysqlClearPasswordPlugin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/authentication/MysqlNativePasswordPlugin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/authentication/MysqlOldPasswordPlugin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/authentication/Sha256PasswordPlugin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/exceptions/DeadlockTimeoutRollbackMarker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/exceptions/MySQLDataException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/exceptions/MySQLIntegrityConstraintViolationException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/exceptions/MySQLInvalidAuthorizationSpecException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/exceptions/MySQLNonTransientConnectionException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/exceptions/MySQLNonTransientException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/exceptions/MySQLQueryInterruptedException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/exceptions/MySQLStatementCancelledException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/exceptions/MySQLSyntaxErrorException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/exceptions/MySQLTimeoutException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/exceptions/MySQLTransactionRollbackException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/exceptions/MySQLTransientConnectionException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/exceptions/MySQLTransientException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/exceptions/jdbc4/CommunicationsException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/exceptions/jdbc4/MySQLDataException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/exceptions/jdbc4/MySQLIntegrityConstraintViolationException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/exceptions/jdbc4/MySQLInvalidAuthorizationSpecException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/exceptions/jdbc4/MySQLNonTransientConnectionException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/exceptions/jdbc4/MySQLNonTransientException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/exceptions/jdbc4/MySQLQueryInterruptedException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/exceptions/jdbc4/MySQLSyntaxErrorException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/exceptions/jdbc4/MySQLTimeoutException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/exceptions/jdbc4/MySQLTransactionRollbackException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/exceptions/jdbc4/MySQLTransientConnectionException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/exceptions/jdbc4/MySQLTransientException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/integration/c3p0/MysqlConnectionTester.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/integration/jboss/ExtendedMysqlExceptionSorter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/integration/jboss/MysqlValidConnectionChecker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/interceptors/ResultSetScannerInterceptor$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/interceptors/ResultSetScannerInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/interceptors/ServerStatusDiffInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/interceptors/SessionAssociationInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/jdbc2/optional/CallableStatementWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/jdbc2/optional/ConnectionWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/jdbc2/optional/JDBC42CallableStatementWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/jdbc2/optional/JDBC42PreparedStatementWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/jdbc2/optional/JDBC4CallableStatementWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/jdbc2/optional/JDBC4ConnectionWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/jdbc2/optional/JDBC4MysqlPooledConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/jdbc2/optional/JDBC4MysqlXAConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/jdbc2/optional/JDBC4PreparedStatementWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/jdbc2/optional/JDBC4StatementWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/jdbc2/optional/JDBC4SuspendableXAConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/jdbc2/optional/MysqlConnectionPoolDataSource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/jdbc2/optional/MysqlDataSource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/jdbc2/optional/MysqlDataSourceFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/jdbc2/optional/MysqlPooledConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/jdbc2/optional/MysqlXAConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/jdbc2/optional/MysqlXADataSource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/jdbc2/optional/MysqlXAException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/jdbc2/optional/MysqlXid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/jdbc2/optional/PreparedStatementWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/jdbc2/optional/StatementWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/jdbc2/optional/SuspendableXAConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/jdbc2/optional/WrapperBase$ConnectionErrorFiringInvocationHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/jdbc2/optional/WrapperBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/jmx/LoadBalanceConnectionGroupManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/jmx/LoadBalanceConnectionGroupManagerMBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/jmx/ReplicationGroupManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/jmx/ReplicationGroupManagerMBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/log/Jdk14Logger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/log/Log.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/log/LogFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/log/LogUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/log/NullLogger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/log/Slf4JLogger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/log/StandardLogger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/profiler/LoggingProfilerEventHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/profiler/ProfilerEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/profiler/ProfilerEventHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/util/Base64Decoder$IntWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/util/Base64Decoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/util/BaseBugReport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/util/ErrorMappingsDocGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/util/LRUCache.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/util/PropertiesDocGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/util/ReadAheadInputStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/util/ResultSetUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/util/ServerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/util/TimezoneDump.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/com/mysql/jdbc/util/VersionFSHierarchyMaker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/ImportedClasses/org/gjt/mm/mysql/Driver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/appClientModule/META-INF/INDEX.LIST" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/appClientModule/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/appClientModule/META-INF/services/java.sql.Driver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/appClientModule/com/mysql/jdbc/Charsets.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/appClientModule/com/mysql/jdbc/LocalizedErrorMessages.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/appClientModule/com/mysql/jdbc/TimeZoneMapping.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/appClientModule/com/mysql/jdbc/configs/3-0-Compat.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/appClientModule/com/mysql/jdbc/configs/5-0-Compat.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/appClientModule/com/mysql/jdbc/configs/clusterBase.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/appClientModule/com/mysql/jdbc/configs/coldFusion.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/appClientModule/com/mysql/jdbc/configs/fullDebug.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/appClientModule/com/mysql/jdbc/configs/maxPerformance.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-connector-java-5.1.39-bin/appClientModule/com/mysql/jdbc/configs/solarisMaxPerformance.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../powertestclassroom/bin/service/imp/RoleServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../powertestclassroom/bin/service/imp/RoleServiceImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../powertestclassroom/bin/view/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../powertestclassroom/bin/view/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../powertestclassroom/src/service/imp/RoleServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../powertestclassroom/src/service/imp/RoleServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../powertestclassroom/src/view/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../powertestclassroom/src/view/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopsystem/src/dao/AddGoods.java" beforeDir="false" afterPath="$PROJECT_DIR$/../shopsystem/src/dao/AddGoods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopsystem2.0/src/cache/Goods_Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/../shopsystem2.0/src/cache/Goods_Store.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopsystem2.0/src/service/GoodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../shopsystem2.0/src/service/GoodsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopsystem2.0/src/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../shopsystem2.0/src/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopsystem3.0/bin/dao/imp/GoodsDaoIMP$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../shopsystem3.0/bin/dao/imp/GoodsDaoIMP$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopsystem3.0/bin/dao/imp/GoodsDaoIMP$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../shopsystem3.0/bin/dao/imp/GoodsDaoIMP$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopsystem3.0/bin/dao/imp/GoodsDaoIMP$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../shopsystem3.0/bin/dao/imp/GoodsDaoIMP$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopsystem3.0/bin/dao/imp/GoodsDaoIMP.class" beforeDir="false" afterPath="$PROJECT_DIR$/../shopsystem3.0/bin/dao/imp/GoodsDaoIMP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopsystem3.0/bin/dao/imp/GoodsPictureDaoIMP.class" beforeDir="false" afterPath="$PROJECT_DIR$/../shopsystem3.0/bin/dao/imp/GoodsPictureDaoIMP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopsystem3.0/bin/dao/imp/OrderDetailsIMP$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../shopsystem3.0/bin/dao/imp/OrderDetailsIMP$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopsystem3.0/bin/dao/imp/OrderDetailsIMP$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../shopsystem3.0/bin/dao/imp/OrderDetailsIMP$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopsystem3.0/bin/dao/imp/OrderDetailsIMP$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../shopsystem3.0/bin/dao/imp/OrderDetailsIMP$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopsystem3.0/bin/dao/imp/OrderDetailsIMP.class" beforeDir="false" afterPath="$PROJECT_DIR$/../shopsystem3.0/bin/dao/imp/OrderDetailsIMP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopsystem3.0/bin/dao/imp/OrdersDaoIMP$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../shopsystem3.0/bin/dao/imp/OrdersDaoIMP$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopsystem3.0/bin/dao/imp/OrdersDaoIMP.class" beforeDir="false" afterPath="$PROJECT_DIR$/../shopsystem3.0/bin/dao/imp/OrdersDaoIMP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopsystem3.0/bin/dao/imp/ShopCartDaoIMP.class" beforeDir="false" afterPath="$PROJECT_DIR$/../shopsystem3.0/bin/dao/imp/ShopCartDaoIMP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopsystem3.0/bin/dao/imp/UsersDaoIMP.class" beforeDir="false" afterPath="$PROJECT_DIR$/../shopsystem3.0/bin/dao/imp/UsersDaoIMP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopsystem3.0/bin/dao/imp/_ClassificationDaoIMP.class" beforeDir="false" afterPath="$PROJECT_DIR$/../shopsystem3.0/bin/dao/imp/_ClassificationDaoIMP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopsystem3.0/bin/enums/Enums.class" beforeDir="false" afterPath="$PROJECT_DIR$/../shopsystem3.0/bin/enums/Enums.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopsystem3.0/bin/enums/Responese.class" beforeDir="false" afterPath="$PROJECT_DIR$/../shopsystem3.0/bin/enums/Responese.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopsystem3.0/bin/idao/IDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../shopsystem3.0/bin/idao/IDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopsystem3.0/bin/jdbcutil/MySqlUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../shopsystem3.0/bin/jdbcutil/MySqlUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopsystem3.0/bin/jdbcutil/MysqlConnet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../shopsystem3.0/bin/jdbcutil/MysqlConnet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopsystem3.0/bin/mtomentity/OrderDetails.class" beforeDir="false" afterPath="$PROJECT_DIR$/../shopsystem3.0/bin/mtomentity/OrderDetails.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopsystem3.0/bin/one/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/../shopsystem3.0/bin/one/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopsystem3.0/bin/one/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../shopsystem3.0/bin/one/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopsystem3.0/bin/one/_Class.class" beforeDir="false" afterPath="$PROJECT_DIR$/../shopsystem3.0/bin/one/_Class.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopsystem3.0/bin/onetomanyentity/Goods.class" beforeDir="false" afterPath="$PROJECT_DIR$/../shopsystem3.0/bin/onetomanyentity/Goods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopsystem3.0/bin/onetomanyentity/GoodsPicture.class" beforeDir="false" afterPath="$PROJECT_DIR$/../shopsystem3.0/bin/onetomanyentity/GoodsPicture.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopsystem3.0/bin/onetomanyentity/Orders.class" beforeDir="false" afterPath="$PROJECT_DIR$/../shopsystem3.0/bin/onetomanyentity/Orders.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopsystem3.0/bin/onetomanyentity/ShopCart.class" beforeDir="false" afterPath="$PROJECT_DIR$/../shopsystem3.0/bin/onetomanyentity/ShopCart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopsystem3.0/bin/onetomanyentity/_Classification.class" beforeDir="false" afterPath="$PROJECT_DIR$/../shopsystem3.0/bin/onetomanyentity/_Classification.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopsystem3.0/bin/onetooneentity/Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/../shopsystem3.0/bin/onetooneentity/Users.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopsystem3.0/bin/service/GoodService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../shopsystem3.0/bin/service/GoodService$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopsystem3.0/bin/service/GoodService$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../shopsystem3.0/bin/service/GoodService$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopsystem3.0/bin/service/GoodService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../shopsystem3.0/bin/service/GoodService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopsystem3.0/bin/service/OrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../shopsystem3.0/bin/service/OrderService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopsystem3.0/bin/service/OrderdetailedService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../shopsystem3.0/bin/service/OrderdetailedService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopsystem3.0/bin/service/ShopCartService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../shopsystem3.0/bin/service/ShopCartService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopsystem3.0/bin/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../shopsystem3.0/bin/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopsystem3.0/bin/util/DESUtile.class" beforeDir="false" afterPath="$PROJECT_DIR$/../shopsystem3.0/bin/util/DESUtile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopsystem3.0/bin/util/DateUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../shopsystem3.0/bin/util/DateUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopsystem3.0/bin/util/IPreparedStatement.class" beforeDir="false" afterPath="$PROJECT_DIR$/../shopsystem3.0/bin/util/IPreparedStatement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopsystem3.0/bin/util/IResultSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../shopsystem3.0/bin/util/IResultSet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopsystem3.0/bin/view/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../shopsystem3.0/bin/view/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../背诵概念.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../背诵概念.txt" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1TulRdjuZAQxiSEclQIngtVV34L" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fe978b00-12e5-4e95-99d6-fb11139020be" name="Default Changelist" comment="" />
+      <created>1574317854678</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574317854678</updated>
+      <workItem from="1574317860806" duration="61000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

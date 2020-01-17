@@ -200,6 +200,7 @@ public class AddGoods {
 					bbc = true;
 					break;
 				}
+				break;
 			}
 			if(bbc){
 			temprory[j] = id;
@@ -217,6 +218,7 @@ public class AddGoods {
 				System.out.println("库存中没有该商品");
 			}
 			k=0;
+			bbc = false;
 			System.out.print("y继续n结束：");
 			y = sc.next();
 			

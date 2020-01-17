@@ -9,7 +9,7 @@ import entity.Goods;
 import idao.Daos;
 
 public class GoodsService {
-	private Daos goodsDao;
+	private Daos<Goods> goodsDao;
 
 	public GoodsService() {
 		// Êý¾Ý²ãgoodsDao

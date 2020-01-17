@@ -193,11 +193,6 @@ public class EmployeeDaoIMP implements IDao<Employee> {
 		return ey;
 	}
 
-	public static void main(String[] args) {
-		Employee login = new EmployeeDaoIMP().login("11", "123");
-		System.out.println(login);
-	}
-
 	@Override
 	public void Update(Employee t, int pid) {
 		// TODO Auto-generated method stub

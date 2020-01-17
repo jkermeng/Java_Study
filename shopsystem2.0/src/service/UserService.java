@@ -10,7 +10,7 @@ import entity.User;
 import idao.Daos;
 
 public class UserService {
-	private Daos userDao;
+	private Daos<User> userDao;
 
 	public UserService() {
 		userDao = new UserDaoImp();
@@ -24,7 +24,7 @@ public class UserService {
 	public RespondRuslt Login(Scanner sc) {
 		RespondRuslt rs = new RespondRuslt(Status.SUSSECE);
 		RespondRuslt falt = new RespondRuslt(Status.FAIL);
-
+		
 		List<User> useBox = userDao.selectAll();
 		System.out.println("«Î ‰»Î’À∫≈£∫ ");
 		String uName = sc.next();

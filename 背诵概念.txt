@@ -17,3 +17,82 @@ jdk 核心编程工具+运行环境jvm+java系统库
 合法标识符   $ _ +英文数字 or $
 违法标识符   关键字class 保留字
 
+子类从父类中继承父类的成员、
+类从父类继承方法，使得子类具有父类相同的行为、属性
+关键字extends
+
+abstract 关键字
+抽象类中可以用也可以没有抽象方法，但有抽象方法就一定是抽象类
+抽象类不能实例化 new xxxx();
+抽象类只有方法名没有方法体
+抽象类可以被抽象类、普通类 继承
+继承抽象类，抽象方法一定要会 重写
+
+
+多态
+1、继承2、父类指向子类3、重写父类方法    缺一不可
+
+
+
+字符串内存信息
+相同字符串在内存池里的地址相同，不同的字符个占用新的地址、new String()新开辟内存地址给新命名对象.
+
+interface
+接口：
+1、接口里只能定义公共的、静态的并且是常量，public、static、fanal
+2、接口没有构造方法
+3、接口可以继承接口，（含多继承）
+4、接口可以被多实现
+5、接口只能定义静态方法（1.8pth后）和默认方法（1.8pth后）、抽象方法，不能定义构造方法
+6、接口不能被实例化
+7、接口不能被类继承，只能被实现
+
+异常：
+throw:抛出一个异常对象，在方法体中 throw new NullException();
+throws:声明抛出异常，在方法（）后
+父类基层父类异常，子类继承父类，同样会继承父类里的异常抛出
+
+父类里拥有基层异常，子类里有基子类异常不报错，但父类中没有的异常，子类中加入基类异常会报错。
+
+父类中没有的异常，子类中重写的方法上定义抛出异常会出现编译错误
+
+泛型T：
+<T extends object>
+T 继承 父类或者子类、接口
+? 通用符
+<? extends object>子类指向父类 向下转型
+上级同级或本身和下级都不能add.
+
+<? super object>父类指向子类 向上下转型
+可以add.本身，不能add.上级
+
+equals 和 hashCode 的区别比较
+
+对象内存地址 和 定义的一个long型的数据 code一样时对象可能不一样
+
+Map和Set 的排序用compareble比较key值
+
+File io流，“.”代表当前路径。
+OutPutStream write（数据,0,5）；截取长度可以直接一堆一堆的输入文件，而write(数据)只是一个一个输入数据
+
+Thread ：使用方法 extends thread \ implements Runnable
+extends new 出普通对象，属性在多线程中不会共享 属性
+implements new 会共享普通对象
+extends 对象锁只有一个对象锁，必须要 多一个Object obj 、 
+implements 自己会有多个对object使用线程锁synchronized
+extends单继承 implements多实现
+
+tomcat 三种网页部署方式
+（1）到tomcat的目录下的webapps新建文件夹，名字是网页的根路径，文件夹里粘贴项目网页
+ (2) 到tomcat的目录下的Catalina的localhost中添加文件夹：名字是网页的根路径，再新建xml 编写
+<?xml version="1.0" encoding="utf-8"?>
+<Context docBase="<项目的绝对路径>"></Context>
+好处是网页根路径随意定义名字
+如果是war包：这在<Context docBase="<项目文件的绝对路径>" path="网页根路径"></Context> 访问路径是url:端口/文件夹名字/war包里的路径
+（3）到tomcat的目录下的server.xml中的<Host>标签下添加 <Context docBase="<项目的绝对路径>" path="网页根路径"></Context> 访问路径是url:端口/根路径/项目网页名
+ 如果是war包：这在<Context docBase="<项目文件的绝对路径>" path="网页根路径"></Context>
+ (4) 到tomcat：8080网页上管理项目网页直接添加xxx.war包 访问路径是url:端口/war包名/war包里的路径
+
+jsp中include意思 把后台服务器的结果和静态页面标签传到当前jsp
+
+jsp中forward意思 把后台服务器的结果传到当前jsp
